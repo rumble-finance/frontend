@@ -22,7 +22,7 @@ import {
 } from '@/composables/usePool';
 import { toNormalizedWeights } from '@balancer-labs/balancer-js';
 import { pick } from 'lodash';
-import { Vault__factory } from '@balancer-labs/typechain';
+import { Vault__factory } from '@rumble-finance/typechain';
 import { Contract } from 'ethers';
 import VaultAbi from '@/lib/abi/VaultAbi.json';
 import ProtocolFeesCollector from './protocol-fees-collector';

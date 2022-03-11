@@ -1,10 +1,7 @@
 <template>
   <div class="app-nav-footer">
-    <div class="app-nav-footer-container">
-      <div class="w-1/3 pl-2">
-        <DarkModeToggle circle />
-      </div>
-      <div class="w-1/3 flex justify-center">
+    <div class="app-nav-footer-container pl-5 pr-5">
+      <div class="w-full flex justify-center">
         <AppNavToggle darkModeBg="700" />
       </div>
     </div>
@@ -20,20 +17,20 @@ export default defineComponent({
   name: 'AppFooterNav',
 
   components: {
-    AppNavToggle,
-    DarkModeToggle
+    AppNavToggle
   }
 });
 </script>
 
 <style scoped>
 .app-nav-footer {
-  @apply fixed bottom-0 left-0 w-full px-2 mb-4 z-20;
+  @apply fixed bottom-0 left-0 right-0 px-2 mb-4 z-20;
+  text-align: center;
 }
 
 .app-nav-footer-container {
-  @apply w-full py-2 mx-auto rounded-full max-w-lg;
+  @apply py-2 mx-auto rounded-full;
   @apply bg-white dark:bg-gray-800 shadow-xl;
-  @apply flex justify-between items-center;
+  @apply inline-flex items-center;
 }
 </style>

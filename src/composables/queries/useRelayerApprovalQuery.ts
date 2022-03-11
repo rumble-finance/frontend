@@ -2,7 +2,7 @@ import { reactive, computed, Ref } from 'vue';
 import { useQuery } from 'vue-query';
 import { UseQueryOptions } from 'react-query/types';
 import { Contract } from 'ethers/lib/ethers';
-import { Vault__factory } from '@balancer-labs/typechain';
+import { Vault__factory } from '@rumble-finance/typechain';
 
 import QUERY_KEYS from '@/constants/queryKeys';
 import { FETCH_ONCE_OPTIONS } from '@/constants/vue-query';

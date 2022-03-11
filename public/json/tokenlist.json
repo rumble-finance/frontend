@@ -1,6 +1,6 @@
 {
   "name": "Rumble Finance",
-  "logoURI": "https://raw.githubusercontent.com/rumble-finance/frontend/develop/public/images/logos/logo.svg",
+  "logoURI": "https://raw.githubusercontent.com/rumble-finance/frontend/master/public/images/logos/logo.svg",
   "keywords": ["avalanche", "defi", "rumble"],
   "version": {
     "major": 1,

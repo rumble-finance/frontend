@@ -1,6 +1,6 @@
 import { computed, Ref, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
-import { Vault__factory } from '@balancer-labs/typechain';
+import { Vault__factory } from '@rumble-finance/typechain';
 
 import useWeb3 from '@/services/web3/useWeb3';
 

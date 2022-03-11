@@ -333,7 +333,7 @@ const POOLS_GENERIC: Pools = {
 };
 
 const POOLS_MAP = {
-  [Network.AVALANCHE]: POOLS_MAINNET,
+  [Network.AVALANCHE]: POOLS_MAINNET
 };
 export const POOLS: Pools = POOLS_MAP[networkId.value]
   ? POOLS_MAP[networkId.value]

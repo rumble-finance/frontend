@@ -146,10 +146,42 @@
     <div
       class="network p-4 mt-4 text-sm border-t dark:border-gray-900 rounded-b-xl"
     >
-      <div v-text="$t('referralLink')" />
-      <div class="flex items-baseline">
-        <div :class="['w-2 h-2 mr-1 rounded-full', networkColorClass]"></div>
-        {{ isUnsupportedNetwork ? $t('unsupportedNetwork') : networkName }}
+      <div class="mb-2">
+        <span v-text="$t('referralLink')" />
+        <BalTooltip>
+          <template v-slot:activator>
+            <BalIcon name="info" size="xs" class="ml-1 text-gray-400 -mb-px" />
+          </template>
+          <div v-html="$t('referralProgramDescription')" />
+        </BalTooltip>
+      </div>
+
+      <div>
+        <input
+          class="w-12 h-7 text-center bg-transparent text-blue-500 dark:text-blue-400 border border-blue-200 dark:border-blue-700 px-3 rounded-lg shadow"
+          style="width: calc(100% - 32px)"
+          :value="`https://rumble.finance/#/?ref=${account}`"
+          readonly
+        />
+        <BalTooltip width="auto">
+          <template v-slot:activator>
+            <BalBtn
+              circle
+              color="gray"
+              size="xs"
+              flat
+              @click="copyReferralLink"
+              class="ml-2"
+            >
+              <BalIcon v-if="copiedReferralLink" name="check" size="xs" />
+              <BalIcon v-else name="clipboard" size="xs" />
+            </BalBtn>
+          </template>
+          <div
+            v-text="copiedReferralLink ? $t('copied') : $t('copyReferralLink')"
+            class="text-center"
+          />
+        </BalTooltip>
       </div>
     </div>
   </div>
@@ -217,7 +249,8 @@ export default defineComponent({
     const data = reactive({
       locales,
       tradeInterfaceOptions,
-      copiedAddress: false
+      copiedAddress: false,
+      copiedReferralLink: false
     });
 
     // COMPUTED
@@ -257,6 +290,16 @@ export default defineComponent({
         data.copiedAddress = false;
       }, 2 * 1000);
     }
+    function copyReferralLink() {
+      navigator.clipboard.writeText(
+        `https://rumble.finance/#/?ref=${account.value}`
+      );
+      data.copiedReferralLink = true;
+
+      setTimeout(() => {
+        data.copiedReferralLink = false;
+      }, 2 * 1000);
+    }
 
     return {
       // data
@@ -283,6 +326,7 @@ export default defineComponent({
       setLocale,
       setTradeInterface,
       copyAddress,
+      copyReferralLink,
       explorer: explorerLinks,
       ethereumTxType,
       setEthereumTxType,

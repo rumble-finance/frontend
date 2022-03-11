@@ -360,7 +360,7 @@ export default defineComponent({
     function getPoolLink(id: string): string {
       const chainId = appNetworkConfig.chainId;
       const prefixMap = {
-        [Network.AVALANCHE]: '',
+        [Network.AVALANCHE]: ''
       };
       const prefix = prefixMap[chainId] || '';
 

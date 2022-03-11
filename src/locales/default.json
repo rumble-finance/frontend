@@ -118,6 +118,7 @@
     },
     "continueAnyway": "Continue anyway",
     "copyAddress": "Copy address",
+    "copyReferralLink": "Copy referral link",
     "correctTokenPricing": "Correct token pricing may help you avoid losing money to arbitrageurs. Losses could happen if you don't add pool assets in proportion to their target weights.",
     "create": "Create",
     "createAPool": {
@@ -361,6 +362,7 @@
     "managedPool": "Managed pool",
     "manageLists": "Manage lists",
     "marketConditionsWarning": "Market conditions may change between the time your order is submitted and the time it gets executed on Ethereum. Slippage tolerance is the maximum change in price you are willing to accept. This protects you from front-running bots and miner extractable value (MEV).",
+    "referralProgramDescription": "By referring new users to our platform, you receive 10% of their trading fees and 25% of any token airdrops and rewards they receive.",
     "max": "Max",
     "maxed": "Maxed",
     "maximum": "Maximum",

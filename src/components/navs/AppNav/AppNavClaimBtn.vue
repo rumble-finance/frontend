@@ -57,12 +57,7 @@ const claimError = ref<TransactionError | null>(null);
 const { upToLargeBreakpoint } = useBreakpoints();
 const userClaimsQuery = useUserClaimsQuery();
 const { fNum2 } = useNumbers();
-const {
-  account,
-  getProvider,
-  isMainnet,
-  isMismatchedNetwork
-} = useWeb3();
+const { account, getProvider, isMainnet, isMismatchedNetwork } = useWeb3();
 const { txListener } = useEthers();
 const { addTransaction } = useTransactions();
 const {

@@ -17,9 +17,9 @@ export const TOKEN_LIST_MAP: TokenListMapByNetwork = {
   '43114': {
     Balancer: {
       Default:
-        'https://raw.githubusercontent.com/rumble-finance/frontend/develop/public/json/tokenlist.json',
+        'https://raw.githubusercontent.com/rumble-finance/frontend/master/public/json/tokenlist.json',
       Vetted:
-        'https://raw.githubusercontent.com/rumble-finance/frontend/develop/public/json/tokenlist.json'
+        'https://raw.githubusercontent.com/rumble-finance/frontend/master/public/json/tokenlist.json'
     },
     External: []
   }

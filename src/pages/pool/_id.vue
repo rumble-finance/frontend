@@ -343,9 +343,7 @@ export default defineComponent({
       return false;
     });
 
-    const isCopperNetworkSupported = computed(
-      () => isMainnet.value
-    );
+    const isCopperNetworkSupported = computed(() => isMainnet.value);
 
     // Temporary solution to hide Copper card on Fei pool page.
     // Longer terms solution is needed distinguish LBP platforms

@@ -2,7 +2,7 @@ import {
   Vault__factory,
   WeightedPoolFactory__factory,
   WeightedPool__factory
-} from '@balancer-labs/typechain';
+} from '@rumble-finance/typechain';
 import { Contract } from '@ethersproject/contracts';
 import { TransactionResponse, Web3Provider } from '@ethersproject/providers';
 import { configService } from '@/services/config/config.service';
@@ -58,6 +58,9 @@ export default class WeightedPoolService {
       symbol,
       tokenAddresses,
       seedTokens,
+      Array(tokenAddresses.length).fill(
+        '0x0000000000000000000000000000000000000000'
+      ),
       swapFeeScaled.toString(),
       owner
     ];

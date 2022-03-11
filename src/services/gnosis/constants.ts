@@ -12,10 +12,8 @@ export const GP_SUPPORTED_NETWORKS = Object.keys(GPv2VaultRelayer).map(
   parseInt
 );
 
-export const GP_SETTLEMENT_CONTRACT_ADDRESS: string = (
-  GPv2Settlement[networkId.value]
-)?.address;
+export const GP_SETTLEMENT_CONTRACT_ADDRESS: string =
+  GPv2Settlement[networkId.value]?.address;
 
-export const GP_RELAYER_CONTRACT_ADDRESS: string = (
-  GPv2VaultRelayer[networkId.value]
-)?.address;
+export const GP_RELAYER_CONTRACT_ADDRESS: string =
+  GPv2VaultRelayer[networkId.value]?.address;

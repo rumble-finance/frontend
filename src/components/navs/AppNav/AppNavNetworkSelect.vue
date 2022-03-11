@@ -90,7 +90,7 @@ export default defineComponent({
 </script>
 
 <style>
-  .cursor-default {
-    cursor: default;
-  }
+.cursor-default {
+  cursor: default;
+}
 </style>

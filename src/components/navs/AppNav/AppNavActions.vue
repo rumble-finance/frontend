@@ -47,13 +47,11 @@ export default defineComponent({
       connectWallet,
       account,
       toggleWalletSelectModal,
-      isMainnet,
+      isMainnet
     } = useWeb3();
 
     // COMPUTED
-    const liquidityMiningSupported = computed(
-      () => false
-    );
+    const liquidityMiningSupported = computed(() => false);
 
     // METHODS
     function onClickConnect() {

@@ -3,8 +3,8 @@ import { TransactionResponse } from '@ethersproject/abstract-provider';
 import { callStatic, sendTransaction } from '@/lib/utils/balancer/web3';
 import {
   Vault__factory,
-  BalancerHelpers__factory
-} from '@balancer-labs/typechain';
+  RumbleHelpers__factory
+} from '@rumble-finance/typechain';
 import JoinParams from './serializers/JoinParams';
 import ExitParams from './serializers/ExitParams';
 import { FullPool } from '@/services/balancer/subgraph/types';
@@ -42,7 +42,7 @@ export default class ExchangeService {
     return await callStatic(
       provider,
       this.helpersAddress,
-      BalancerHelpers__factory.abi,
+      RumbleHelpers__factory.abi,
       'queryJoin',
       txParams
     );
@@ -94,7 +94,7 @@ export default class ExchangeService {
     return await callStatic(
       provider,
       this.helpersAddress,
-      BalancerHelpers__factory.abi,
+      RumbleHelpers__factory.abi,
       'queryExit',
       txParams
     );

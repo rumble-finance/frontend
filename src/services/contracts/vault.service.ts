@@ -1,7 +1,7 @@
 import { ContractInterface } from '@ethersproject/contracts';
 import { MaxUint256 } from '@ethersproject/constants';
 import { TransactionResponse } from '@ethersproject/abstract-provider';
-import { Vault__factory } from '@balancer-labs/typechain';
+import { Vault__factory } from '@rumble-finance/typechain';
 import { SwapV2 } from '@rumble-finance/sdk';
 import ConfigService, { configService } from '@/services/config/config.service';
 import {
