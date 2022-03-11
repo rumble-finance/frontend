@@ -75,6 +75,7 @@ export default class TokenListService {
 
   async get(uri: string): Promise<TokenList> {
     try {
+      console.log({uri});
       const [protocol, path] = uri.split('://');
 
       if (uri.endsWith('.eth')) {

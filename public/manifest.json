@@ -1,10 +1,10 @@
 {
-  "short_name": "Balancer",
-  "name": "Balancer",
-  "description": "Swap tokens and manage your assets on Balancer Protocol",
+  "short_name": "Rumble",
+  "name": "Rumble Finance",
+  "description": "Swap tokens and manage your assets on Rumble Finance Protocol",
   "providedBy": {
-    "name": "Balancer Labs",
-    "url": "https://balancer.fi"
+    "name": "Rumble Finance Labs",
+    "url": "https://rumble.finance"
   },
   "icons": [
     {
@@ -13,7 +13,7 @@
       "type": "image/x-icon"
     }
   ],
-  "iconPath": "images/logos/logo512.png",
+  "iconPath": "images/logos/logo.svg",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

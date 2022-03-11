@@ -4,7 +4,7 @@
       <BalBtn
         color="white"
         :size="upToLargeBreakpoint ? 'md' : 'sm'"
-        class="ml-4"
+        class="ml-4 cursor-default"
       >
         <img
           :src="iconSrc(activeNetwork)"
@@ -14,34 +14,8 @@
         <span class="ml-2">
           {{ activeNetwork.name }}
         </span>
-        <BalIcon name="chevron-down" size="sm" class="ml-2" />
       </BalBtn>
     </template>
-    <div class="flex flex-col w-44 rounded-lg overflow-hidden">
-      <div
-        class="p-3 border-b dark:border-gray-900 whitespace-nowrap text-gray-500 font-medium"
-      >
-        Select a network
-      </div>
-      <a
-        v-for="network in networks"
-        :key="network.id"
-        :href="appUrl(network)"
-        class="flex items-center justify-between p-3 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-850"
-      >
-        <div class="flex items-center">
-          <img
-            :src="iconSrc(network)"
-            :alt="network.name"
-            class="w-5 h-5 rounded-full mr-2"
-          />
-          <span class="ml-1 font-medium">
-            {{ network.name }}
-          </span>
-        </div>
-        <BalIcon v-if="isActive(network)" name="check" class="text-blue-500" />
-      </a>
-    </div>
   </BalPopover>
 </template>
 
@@ -71,21 +45,9 @@ export default defineComponent({
     const networks = [
       {
         id: 'ethereum',
-        name: 'Ethereum',
+        name: 'Avalanche',
         subdomain: 'app',
         key: '1'
-      },
-      {
-        id: 'polygon',
-        name: 'Polygon',
-        subdomain: 'polygon',
-        key: '137'
-      },
-      {
-        id: 'arbitrum',
-        name: 'Arbitrum',
-        subdomain: 'arbitrum',
-        key: '42161'
       }
     ];
 
@@ -104,7 +66,7 @@ export default defineComponent({
     }
 
     function appUrl(network: Network): string {
-      return `https://${network.subdomain}.balancer.fi`;
+      return `https://${network.subdomain}.rumble.finance`;
     }
 
     function isActive(network: Network): boolean {
@@ -126,3 +88,9 @@ export default defineComponent({
   }
 });
 </script>
+
+<style>
+  .cursor-default {
+    cursor: default;
+  }
+</style>

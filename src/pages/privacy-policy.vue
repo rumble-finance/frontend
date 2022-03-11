@@ -41,8 +41,8 @@
         The Balancer Labs UI is not directed to children under the age of 16. If
         a parent or guardian becomes aware that his or her child has provided us
         with personal information without your consent, please contact us at
-        <a class="link" href="mailto:privacypolicy@balancer.finance"
-          >privacypolicy@balancer.finance</a
+        <a class="link" href="mailto:privacypolicy@rumble.finance"
+          >privacypolicy@rumble.finance</a
         >. If we become aware that a child under the age of 16 has provided us
         with personal information, we will take reasonable efforts to delete
         such personal information.
@@ -309,7 +309,7 @@
         deletion of your personal information, (3) opt out of any “sales” of
         your personal information that may be occurring, and (4) not be
         discriminated against for exercising these rights. You may make these
-        requests by emailing us at privacypolicy@balancer.finance. If we receive
+        requests by emailing us at privacypolicy@rumble.finance. If we receive
         your request from an authorized agent, we may ask for evidence that you
         have provided such agent with a power of attorney or that the agent
         otherwise has valid written authority to submit requests to exercise
@@ -388,8 +388,8 @@
       <p>
         If you have any questions about this Privacy Policy, please contact us
         at
-        <a class="link" href="mailto:privacypolicy@balancer.finance"
-          >privacypolicy@balancer.finance</a
+        <a class="link" href="mailto:privacypolicy@rumble.finance"
+          >privacypolicy@rumble.finance</a
         >.
       </p>
     </div>

@@ -1,7 +1,7 @@
 import { OrderKind } from '@gnosis.pm/gp-v2-contracts';
 import axios from 'axios';
 import { networkId } from '@/composables/useNetwork';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 
 import { GP_SETTLEMENT_CONTRACT_ADDRESS } from './constants';
 
@@ -43,10 +43,7 @@ export interface MatchaPriceQuote extends MatchaBaseQuote {
   gas: string;
 }
 
-export const API_URLS = {
-  [Network.MAINNET]: 'https://api.0x.org/swap',
-  [Network.ROPSTEN]: 'https://ropsten.api.0x.org/swap'
-};
+export const API_URLS = {};
 
 // GPV2Settlement
 // https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41
@@ -58,7 +55,7 @@ export default class Match0xService {
   baseURL: string;
 
   constructor(apiVersion = 'v1') {
-    const baseURL = API_URLS[networkId.value] ?? API_URLS[Network.MAINNET];
+    const baseURL = API_URLS[networkId.value];
 
     this.baseURL = `${baseURL}/${apiVersion}`;
   }

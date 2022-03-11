@@ -2,17 +2,10 @@ import { computed, inject } from 'vue';
 import BlocknativeSdk from 'bnc-sdk';
 import { bnSdkSymbol } from '@/plugins/blocknative';
 
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 import useWeb3 from '@/services/web3/useWeb3';
 
-const SUPPORTED_NETWORKS = [
-  Network.MAINNET,
-  Network.KOVAN,
-  Network.RINKEBY,
-  Network.ROPSTEN,
-  Network.GÖRLI,
-  Network.POLYGON
-];
+const SUPPORTED_NETWORKS: Network[] = [];
 
 export default function useBlocknative() {
   const { appNetworkConfig } = useWeb3();

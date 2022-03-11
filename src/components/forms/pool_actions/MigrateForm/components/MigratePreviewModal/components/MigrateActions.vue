@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, reactive, onBeforeMount, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
-import { StablePoolEncoder, WeightedPoolEncoder } from '@balancer-labs/sdk';
+import { StablePoolEncoder, WeightedPoolEncoder } from '@rumble-finance/sdk';
 import { BigNumber, BigNumberish } from 'ethers';
 
 // Types

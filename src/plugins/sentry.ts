@@ -3,7 +3,7 @@ import { captureException, init, setTag } from '@sentry/browser';
 import { Integrations } from '@sentry/tracing';
 import { version } from '../../package.json';
 import { networkId } from '@/composables/useNetwork';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 
 // Using Sentry's vanila JS package (@sentry/browser) here instead of
 // the official vue package (@sentry/vue) because it doesn't support vue 3 yet.
@@ -11,10 +11,7 @@ import { Network } from '@balancer-labs/sdk';
 
 const ENV = process.env.VUE_APP_ENV || 'development';
 const networkMap = {
-  [Network.MAINNET]: 'mainnet',
-  [Network.KOVAN]: 'kovan',
-  [Network.POLYGON]: 'polygon',
-  [Network.ARBITRUM]: 'arbitrum-one'
+  [Network.AVALANCHE]: 'avalanche'
 };
 const environment = `${ENV}-${networkMap[networkId.value]}`;
 const release = `frontend-v2@${version}`;

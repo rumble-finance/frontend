@@ -1,18 +1,6 @@
 {
-  "1": {
+  "43114": {
     "input": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-    "output": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
-  },
-  "42": {
-    "input": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-    "output": "0x04DF6e4121c27713ED22341E7c7Df330F56f289B"
-  },
-  "137": {
-    "input": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-    "output": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
-  },
-  "42161": {
-    "input": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-    "output": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+    "output": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
   }
 }

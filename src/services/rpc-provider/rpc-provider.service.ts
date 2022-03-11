@@ -1,6 +1,6 @@
 import { WebSocketProvider, JsonRpcProvider } from '@ethersproject/providers';
 import ConfigService, { configService } from '@/services/config/config.service';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 import template from '@/lib/utils/template';
 
 type NewBlockHandler = (blockNumber: number) => any;

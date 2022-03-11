@@ -1,0 +1,66 @@
+{
+  "key": "43114",
+  "chainId": 43114,
+  "chainName": "Avalanche",
+  "name": "Avalanche",
+  "shortName": "Avalanche",
+  "network": "avalanche",
+  "portisNetwork": "avalanche",
+  "unknown": false,
+  "rpc": "https://api.avax.network/ext/bc/C/rpc",
+  "ws": "wss://snowtrace.io/wshandler",
+  "loggingRpc": "https://api.avax.network/ext/bc/C/rpc",
+  "explorer": "https://snowtrace.io",
+  "explorerName": "SnowTrace",
+  "subgraph": "https://api.thegraph.com/subgraphs/name/rumble-finance/core-protocol",
+  "poolsUrlV2": "",
+  "subgraphs": {
+    "aave": ""
+  },
+  "supportsEIP1559": true,
+  "nativeAsset": {
+    "name": "AVAX",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "deeplinkId": "avax",
+    "logoURI": "https://snowtrace.io/token/images/avax_32.png",
+    "minTransactionBuffer": "0.05"
+  },
+  "addresses": {
+    "merkleRedeem": "",
+    "merkleOrchard": "",
+    "multicall": "0xE7402480f08605a09DD24708e5EbdC41753D9DF1",
+    "authorizer": "0x967601f3039576A92c2A89f7230dD3C20288AdC2",
+    "vault": "0x83e04C35BC67dba37Aa296EA5f37984f648f691B",
+    "weightedPoolFactory": "0xd6059B5276E29186801baE519FACFC9736Eab5a2",
+    "stablePoolFactory": "0x6Ddf3A9758ae19c3B76123365AdF23cC6303e3BF",
+    "tokenFactory": "",
+    "weth": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+    "stETH": "",
+    "wstETH": "",
+    "lidoRelayer": "",
+    "MockFlashLoanReceiver": "",
+    "balancerHelpers": "0x909fCafA9d1F0bB78fa02e3319E1B487b4231d12",
+    "batchRelayer": "0x03e14e9a82F4D7b5f44245839bE43bD0b798a464"
+  },
+  "keys": {
+    "infura": "daaa68ec242643719749dd1caba2fc66",
+    "alchemy": "cQGZUiTLRCFsQS7kbRxPJK4eH4fTTu88"
+  },
+  "strategies": {
+    "0": {
+      "type": "0",
+      "name": "stablePool"
+    },
+    "1": {
+      "type": "1",
+      "name": "weightedPool"
+    },
+    "2": {
+      "type": "2",
+      "name": "weightedPool"
+    }
+  },
+  "supportsElementPools": false
+}

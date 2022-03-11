@@ -4,7 +4,7 @@
       <template v-if="isWalletReady">
         <h1
           v-text="$t('myInvestments')"
-          class="text-base font-medium text-white opacity-90 font-body mb-2"
+          class="text-base font-medium text-white opacity-90 font-body mb-2 font-bold"
         />
         <BalLoadingBlock
           v-if="isLoadingUserPools"
@@ -35,7 +35,7 @@
           </BalBtn>
           <BalBtn
             tag="a"
-            :href="EXTERNAL_LINKS.Balancer.Home"
+            :href="EXTERNAL_LINKS.Balancer.Docs"
             target="_blank"
             rel="noreferrer"
             color="white"

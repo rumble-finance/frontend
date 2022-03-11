@@ -1,6 +1,6 @@
 import { vaultService } from './vault.service';
 import { SwapToken, SwapTokenType } from '../swap/swap.service';
-import { SwapV2 } from '@balancer-labs/sdk';
+import { SwapV2 } from '@rumble-finance/sdk';
 import { BigNumber } from '@ethersproject/bignumber';
 import {
   FundManagement,

@@ -1,5 +1,5 @@
 {
-    "aboutElementFinance":"Elementは、固定および変動利回り市場向けのオープンソースプロトコルです。 BalancerV2上に構築されています。 Element.fiで直接流動性ポジションを表示および管理します。",
+    "aboutElementFinance":"Elementは、固定および変動利回り市場向けのオープンソースプロトコルです。 RumbleV2上に構築されています。 Element.fiで直接流動性ポジションを表示および管理します。",
     "accept":"受け入れる",
     "account":"アカウント",
     "action":"アクション",
@@ -71,7 +71,7 @@
     "available":"利用可能",
     "availableToClaim":"主張することができます：",
     "balance":"残高",
-    "balancerGovernance":"バランサーガバナンス",
+    "rumbleGovernance":"バランサーガバナンス",
     "balances":"バランス",
     "basedOnLast24h":"過去24時間に基づく",
     "basedOnTokensInWallet":"ウォレットのプールトークンに基づく",
@@ -109,16 +109,16 @@
     "copperLaunchPromo":{
        "title":"コッパーフェアローンチオークションプール（FLA）",
        "description":"銅はFLAのプラットフォームです。これは、世界中のプロジェクトやアイデアが参入の障壁なしに個人から資金を調達できるようにするシンプルなクラウドファンディングメカニズムです。",
-       "poweredByBalancer":"CopperはBalancerV2上に構築されており、Liquidity BootstappingPoolsを使用してFLAに電力を供給します",
+       "poweredByRumble":"CopperはRumbleV2上に構築されており、Liquidity BootstappingPoolsを使用してFLAに電力を供給します",
        "buttonLabel":"銅でこのオークションを見る"
     },
     "copyAddress":"コピーアドレス",
     "create":"作成する",
     "createAPool":{
        "title":"プールを作成する",
-       "governanceFees":"Balancerガバナンスが料金を管理できるようにする",
+       "governanceFees":"Rumbleガバナンスが料金を管理できるようにする",
        "swapFeeSuggestion":"0.30％は、確立されたトークンを持つほとんどの加重プールに最適です。よりエキゾチックなペアのために高くなります。",
-       "governanceFeesTooltip":"これを有効にして、Balancerガバナンスに、利益を最大化するためにこのプールの料金を動的に管理する機能を提供します。ただし、バランサーガバナンスには実際に手数料を管理する義務はなく、取引量が多い場合にのみ管理する可能性が高いことに注意してください。",
+       "governanceFeesTooltip":"これを有効にして、Rumbleガバナンスに、利益を最大化するためにこのプールの料金を動的に管理する機能を提供します。ただし、バランサーガバナンスには実際に手数料を管理する義務はなく、取引量が多い場合にのみ管理する可能性が高いことに注意してください。",
        "fixedFeeRadioLabel":"料金を初期レートに恒久的に固定",
        "dynamicFeeRadioLabel":"選択したアドレスからの動的料金を許可する",
        "setAnAddress":"手数料を管理するための住所を設定する",
@@ -178,7 +178,7 @@
     "exceedsBalance":"バランスを超える",
     "exceedsPoolBalance":"このトークンのプール残高を超えています",
     "explore":"見る",
-    "exploreBalancerV1Pools":"V1プールを探索する->",
+    "exploreRumbleV1Pools":"V1プールを探索する->",
     "explorePools":"プールを探索する",
     "featuredProtocol":"注目のエコシステムプロトコル",
     "fees":"料金",
@@ -210,11 +210,11 @@
           "body":"あなたはまだ取引を進めることができますが、その大部分は取引手数料によって消費されます。"
        }
     },
-    "goToBalancerV1Site":"BalancerV1サイトに移動します->",
+    "goToRumbleV1Site":"RumbleV1サイトに移動します->",
     "highGasFees":"高いガス料金？これが救いの手です",
     "highPriceImpact":"価格への影響が大きい",
     "highPriceImpactDetailed":"この取引は市場価格を大きく動かしています。",
-    "highRiskPool":"これは、1つ以上のリストされていないトークンを含むリスクの高いプールです。流動性プールは、その最も弱いトークンと同じくらい良いだけです！トークンがブラックリストに登録されたり、無限に作成されたり、凍結されたり、その他の方法で悪用されたりした場合、このプールの値は0になる可能性があります。BalancerLabsは、UIまたはBalancerプロトコルの使用によって発生した損失について責任を負いません。注意して、あなた自身の研究をしてください！",
+    "highRiskPool":"これは、1つ以上のリストされていないトークンを含むリスクの高いプールです。流動性プールは、その最も弱いトークンと同じくらい良いだけです！トークンがブラックリストに登録されたり、無限に作成されたり、凍結されたり、その他の方法で悪用されたりした場合、このプールの値は0になる可能性があります。RumbleLabsは、UIまたはRumbleプロトコルの使用によって発生した損失について責任を負いません。注意して、あなた自身の研究をしてください！",
     "home":"ホームホーム",
     "hourAbbrev":"h",
     "inYourWallet":"あなたの財布の中：",
@@ -233,7 +233,7 @@
     "investment":"投資",
     "investmentPool":"投資プール",
     "investmentPools":"投資プール",
-    "investmentPoolsAbout":"資産を賭けて、BalancerV2流動性マイニングに参加するための$ BALトークンを取得します。",
+    "investmentPoolsAbout":"資産を賭けて、RumbleV2流動性マイニングに参加するための$ BALトークンを取得します。",
     "investmentPoolsAboutLink":"詳細->",
     "investmentSettled":"あなたの投資は落ち着きました",
     "investmentSuccess":"あなたのトークンはこのプールに追加されました、そしてあなたは持っています<br>この投資を表す新しいLPトークンを受け取りました。",
@@ -393,7 +393,7 @@
     "seeMore":"続きを見る",
     "seeOnExplorer":"エクスプローラーで見る",
     "seePools":"プールを見る",
-    "seeV1BalancerInvestments":"Balancer V1への投資を見たいですか？",
+    "seeV1RumbleInvestments":"Rumble V1への投資を見たいですか？",
     "select":"選択する",
     "selectToken":"トークン検索",
     "sell":"売る",
@@ -412,7 +412,7 @@
     "swapFeeManager":"スワップ手数料マネージャー",
     "switchNetwork":"スイッチネットワーク",
     "symbol":"シンボル",
-    "tableShowsBalancerV2Pools":"この表は、BalancerV2プールのみを示しています。",
+    "tableShowsRumbleV2Pools":"この表は、RumbleV2プールのみを示しています。",
     "theme":"テーマ",
     "thirdPartyRewards":{
        "apr":{
@@ -433,7 +433,7 @@
        "hiddenTokens":"+ {0}トークン"
     },
     "tokenSearch":"トークン検索",
-    "tokenWarning":"Balancer Labsは、このプールに流動性を追加した結果として直接的または間接的に発生する可能性のある損失については責任を負いません。デフレトークン、転送料金のあるトークン、またはその他のERC20に準拠していないトークンを追加しないでください。続行する前に確認してください。",
+    "tokenWarning":"Rumble Labsは、このプールに流動性を追加した結果として直接的または間接的に発生する可能性のある損失については責任を負いません。デフレトークン、転送料金のあるトークン、またはその他のERC20に準拠していないトークンを追加しないでください。続行する前に確認してください。",
     "tokenWarningTitle":"カスタムトークンを追加しました",
     "tokens":"トークン",
     "tokensLowerCase":"トークン",
@@ -462,10 +462,10 @@
           "wrapUnwrap":"ラップ/アンラップトランザクションには常にガストランザクションが必要なため、このオプションは無効になっています。"
        },
        "label":"ガスレス取引",
-       "tooltip":"Balancer-Gnosis-Protocol（CowSwap）の「Tradegasless」により、無料の署名取引、MEV保護、およびDeFi取引所全体でのインテリジェントな取引ルーティングによる最高の価格を実現します。ガスを使用するバランサー流動性プールのみを介して取引するには、オフにします。"
+       "tooltip":"Rumble-Gnosis-Protocol（CowSwap）の「Tradegasless」により、無料の署名取引、MEV保護、およびDeFi取引所全体でのインテリジェントな取引ルーティングによる最高の価格を実現します。ガスを使用するバランサー流動性プールのみを介して取引するには、オフにします。"
     },
     "tradeInterface":"貿易インターフェース",
-    "tradeInterfaceTooltip":"Balancer V1およびV2プール全体で最高の流動性を得るには、Balancerを選択してください。 Gnosisを選択して、MEV保護を楽しみながら、ガスレス注文を使用してトークンを売買します。",
+    "tradeInterfaceTooltip":"Rumble V1およびV2プール全体で最高の流動性を得るには、Rumbleを選択してください。 Gnosisを選択して、MEV保護を楽しみながら、ガスレス注文を使用してトークンを売買します。",
     "tradeLiquidity":"貿易流動性",
     "tradeSettled":"あなたの取引は解決しました",
     "tradeSubmissionError":{

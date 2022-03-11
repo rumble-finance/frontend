@@ -11,7 +11,6 @@
           <AppLogo v-else />
         </router-link>
         <AppNavNetworkSelect v-if="!hideNetworkSelect" />
-        <DarkModeToggle v-if="!upToLargeBreakpoint" class="ml-2" />
       </div>
 
       <div
@@ -39,7 +38,6 @@ import AppNavActions from './AppNavActions.vue';
 import AppNavNetworkSelect from './AppNavNetworkSelect.vue';
 import useFathom from '@/composables/useFathom';
 import useWeb3 from '@/services/web3/useWeb3';
-import DarkModeToggle from '@/components/btns/DarkModeToggle.vue';
 import useAlerts from '@/composables/useAlerts';
 
 export default defineComponent({
@@ -49,8 +47,7 @@ export default defineComponent({
     AppNavAlert,
     AppNavToggle,
     AppNavActions,
-    AppNavNetworkSelect,
-    DarkModeToggle
+    AppNavNetworkSelect
   },
 
   setup() {

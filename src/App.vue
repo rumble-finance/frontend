@@ -58,32 +58,6 @@ export default defineComponent({
     const { t } = useI18n();
     const { newRouteHandler: updateBgColorFor } = useBackgroundColor();
 
-    // Temporary feature alert for Balancer boosted pools.
-    if (isMainnet.value) {
-      const featureAlert: Alert = {
-        id: 'boosted-pools',
-        priority: AlertPriority.LOW,
-        label: t('alerts.boostedPools'),
-        type: AlertType.FEATURE,
-        rememberClose: true,
-        actionOnClick: true,
-        action: () =>
-          router.push({
-            name: 'pool',
-            params: {
-              id:
-                '0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb20000000000000000000000fe'
-            },
-            query: {
-              utm_source: 'website',
-              utm_medium: 'banner',
-              utm_campaign: 'aaveboostedpools'
-            }
-          })
-      };
-      addAlert(featureAlert);
-    }
-
     /**
      * CALLBACKS
      */
@@ -131,9 +105,5 @@ export default defineComponent({
 <style>
 .VueQueryDevtoolsPanel + button {
   @apply text-black bg-gray-100 p-2 rounded text-sm;
-}
-
-#intercom-activator {
-  z-index: 2147483004;
 }
 </style>

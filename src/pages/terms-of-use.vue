@@ -259,7 +259,7 @@
           Although Balancer Labs does not have access to your assets, you are
           reminded and acknowledge that at any time, your access to your
           Cryptocurrency Assets through third party wallet services, unrelated
-          to Balancer Labs or the Balancer.Fi website, may be suspended or
+          to Balancer Labs or the Rumble.finance website, may be suspended or
           terminated or there may be a delay in your access or use of your
           Cryptocurrency Assets, which may result in the Cryptocurrency Assets
           diminishing in value or you being unable to complete a Smart Contract.
@@ -379,7 +379,7 @@
         Balancer Labs is the owner of all intellectual property rights in the
         Site and the material published on them. To the extent practical, these
         works are protected by copyright laws and all such rights are reserved.
-        www.Balancer.fi is the uniform resource locator (‘URL’) of Balancer
+        www.Rumble.finance is the uniform resource locator (‘URL’) of Balancer
         Labs. You will not make use of this URL (or any other URL owned by us)
         on another website or digital platform without our prior written
         consent. Any unauthorized use or reproduction may be prosecuted. You
@@ -563,8 +563,8 @@
         Balancer Labs is a company incorporated in Estonia. Please contact us if
         you have any questions about these Terms or other topics, by sending an
         email to
-        <a class="link" href="mailto:termsofuse@balancer.finance"
-          >termsofuse@balancer.finance</a
+        <a class="link" href="mailto:termsofuse@rumble.finance"
+          >termsofuse@rumble.finance</a
         >.
       </p>
     </div>

@@ -1,5 +1,5 @@
 {
-    "aboutElementFinance":"Element, sabit ve değişken getiri piyasaları için açık kaynaklı bir protokoldür. Balancer V2 üzerine inşa edilmiştir. Likidite pozisyonlarınızı doğrudan Element.fi'de görüntüleyin ve yönetin.",
+    "aboutElementFinance":"Element, sabit ve değişken getiri piyasaları için açık kaynaklı bir protokoldür. Rumble üzerine inşa edilmiştir. Likidite pozisyonlarınızı doğrudan Element.fi'de görüntüleyin ve yönetin.",
     "accept":"Kabul etmek",
     "account":"Hesap",
     "action":"Aksiyon",
@@ -32,7 +32,7 @@
        "InsufficientValidTo":"İmzaladığınız siparişin süresi zaten doldu. Bu, ayarlarda kısa bir son kullanma tarihi ayarlarsanız ve işlemi imzalamadan önce çok uzun süre beklerseniz olabilir. Lütfen tekrar deneyin.",
        "InsufficientFunds":"Hesapta yeterli bakiye yok.",
        "UnsupportedToken":"Ticaret yaptığınız jetonlardan biri desteklenmiyor.",
-       "WrongOwner":"İmza geçersiz. Cüzdanınız tarafından sağlanan imzalama yönteminin Balancer'ın gerektirdiği standartlara uymaması muhtemeldir. Cüzdan uygulamanızın zincir dışı imzalamayı (EIP-712 veya ETHSIGN) destekleyip desteklemediğini kontrol edin.",
+       "WrongOwner":"İmza geçersiz. Cüzdanınız tarafından sağlanan imzalama yönteminin Rumble'ın gerektirdiği standartlara uymaması muhtemeldir. Cüzdan uygulamanızın zincir dışı imzalamayı (EIP-712 veya ETHSIGN) destekleyip desteklemediğini kontrol edin.",
        "NotFound":"Seçilen jeton çifti yetersiz likiditeye sahip.",
        "OrderNotFound":"İptal etmeye çalıştığınız sipariş mevcut değil.",
        "AlreadyCancelled":"Sipariş zaten iptal edildi.",
@@ -71,7 +71,7 @@
     "available":"Mevcut",
     "availableToClaim":"Talep edilebilir:",
     "balance":"Denge",
-    "balancerGovernance":"Dengeleyici yönetişim",
+    "rumbleGovernance":"Dengeleyici yönetişim",
     "balances":"Bakiyeler",
     "basedOnLast24h":"son 24 saate göre",
     "basedOnTokensInWallet":"Cüzdanınızdaki havuz jetonlarına göre",
@@ -109,7 +109,7 @@
     "copperLaunchPromo":{
        "title":"A Copper adil lansman müzayede havuzu (FLA)",
        "description":"Copper, FLA'lar için bir platformdur—dünyanın dört bir yanından proje ve fikirlerin giriş engeli olmaksızın bireylerden para toplamasını sağlayan basit bir kitle fonlaması mekanizmasıdır.",
-       "poweredByBalancer":"Copper, Balancer V2 üzerine inşa edilmiştir ve FLA'larına güç sağlamak için Likidite Önyükleme Havuzlarını kullanır",
+       "poweredByRumble":"Copper, Rumble üzerine inşa edilmiştir ve FLA'larına güç sağlamak için Likidite Önyükleme Havuzlarını kullanır",
        "buttonLabel":"Bu açık artırmayı Copper'da görüntüle"
     },
     "copyAddress":"Adresi kopyala",
@@ -118,7 +118,7 @@
        "title":"Havuz oluştur",
        "governanceFees":"Dengeleyici yönetiminin ücretleri yönetmesine izin ver",
        "swapFeeSuggestion":"%0,30, yerleşik belirteçlere sahip çoğu ağırlıklı havuz için en iyisidir. Daha egzotik çiftler için daha yükseğe çıkın.",
-       "governanceFeesTooltip":"Karları en üst düzeye çıkarmak için Balancer yönetimine bu havuzun ücretlerini dinamik olarak yönetme yeteneği vermek için bunu etkinleştirin. Ancak, Dengeleyici yönetişimin ücretleri gerçekten yönetme yükümlülüğü altında olmadığını ve büyük olasılıkla bunu yalnızca önemli ticaret hacmi varsa yapacaklarını unutmayın.",
+       "governanceFeesTooltip":"Karları en üst düzeye çıkarmak için Rumble yönetimine bu havuzun ücretlerini dinamik olarak yönetme yeteneği vermek için bunu etkinleştirin. Ancak, Dengeleyici yönetişimin ücretleri gerçekten yönetme yükümlülüğü altında olmadığını ve büyük olasılıkla bunu yalnızca önemli ticaret hacmi varsa yapacaklarını unutmayın.",
        "fixedFeeRadioLabel":"Ücretleri kalıcı olarak başlangıç oranına sabitleyin",
        "dynamicFeeRadioLabel":"Seçtiğim bir adresten dinamik ücretlere izin ver",
        "setAnAddress":"Ücretleri kontrol etmek için bir adres belirleyin",
@@ -178,7 +178,7 @@
     "exceedsBalance":"Bakiyeyi aşıyor",
     "exceedsPoolBalance":"Bu jeton için havuz bakiyesini aşıyor",
     "explore":"keşfetmek",
-    "exploreBalancerV1Pools":"V1 havuzlarını keşfedin ->",
+    "exploreRumbleV1Pools":"V1 havuzlarını keşfedin ->",
     "explorePools":"Havuzları keşfedin",
     "featuredProtocol":"Öne çıkan ekosistem protokolü",
     "fees":"ücretler",
@@ -210,11 +210,11 @@
           "body":"Hala ticarete devam edebilirsiniz, ancak yüksek bir yüzdesi ticaret ücretleri tarafından tüketilecektir."
        }
     },
-    "goToBalancerV1Site":"Balancer V1 sitesine gidin ->",
+    "goToRumbleV1Site":"Rumble V1 sitesine gidin ->",
     "highGasFees":"Yüksek gaz ücretleri? İşte yardım eli",
     "highPriceImpact":"Yüksek fiyat etkisi",
     "highPriceImpactDetailed":"Bu ticaret, piyasa fiyatını önemli ölçüde hareket ettiriyor.",
-    "highRiskPool":"Bu, bir veya daha fazla listelenmemiş jeton içeren daha yüksek riskli bir havuzdur. Bir likidite havuzu, yalnızca en zayıf jetonu kadar iyidir! Bir belirteç kara listeye alınmışsa, sonsuza kadar basılmışsa, dondurulmuşsa veya başka bir şekilde kullanılmışsa, bu havuzun değeri 0'a gidebilir. Balancer Labs, Kullanıcı Arabirimi veya Balancer protokolünü kullanmaktan kaynaklanan kayıplardan asla sorumlu değildir. Dikkatli olun ve kendi araştırmanızı yapın!",
+    "highRiskPool":"Bu, bir veya daha fazla listelenmemiş jeton içeren daha yüksek riskli bir havuzdur. Bir likidite havuzu, yalnızca en zayıf jetonu kadar iyidir! Bir belirteç kara listeye alınmışsa, sonsuza kadar basılmışsa, dondurulmuşsa veya başka bir şekilde kullanılmışsa, bu havuzun değeri 0'a gidebilir. Rumble Labs, Kullanıcı Arabirimi veya Rumble protokolünü kullanmaktan kaynaklanan kayıplardan asla sorumlu değildir. Dikkatli olun ve kendi araştırmanızı yapın!",
     "home":"Ev",
     "hourAbbrev":"h",
     "inYourWallet":"Cüzdanınızda:",
@@ -233,7 +233,7 @@
     "investment":"Yatırım",
     "investmentPool":"Yatırım havuzu",
     "investmentPools":"Yatırım havuzları",
-    "investmentPoolsAbout":"Balancer V2 likidite madenciliğine katılmak için $ BAL token kazanmak için varlıklarınızı yatırın.",
+    "investmentPoolsAbout":"Rumble likidite madenciliğine katılmak için $ BAL token kazanmak için varlıklarınızı yatırın.",
     "investmentPoolsAboutLink":"Daha fazla bilgi edinin ->",
     "investmentSettled":"Yatırımınız tamamlandı",
     "investmentSuccess":"Jetonlarınız bu havuza eklendi ve sizde<br> bu yatırımı temsil eden yeni bir LP jetonu aldı.",
@@ -295,7 +295,7 @@
     "myInvestments":"Dengeleyici yatırımlarım",
     "myPortfolio":"Portföyüm",
     "myShare":"Benim payım",
-    "myV2Investments":"V2 yatırımlarım",
+    "myV2Investments":"yatırımlarım",
     "myWallet":"Ethereum cüzdanım",
     "myWallet2":"Cüzdanım",
     "name":"İsim Soyisim",
@@ -393,7 +393,7 @@
     "seeMore":"Daha fazla gör",
     "seeOnExplorer":"Gezgini gör",
     "seePools":"Havuzları görün",
-    "seeV1BalancerInvestments":"Balancer V1 yatırımlarınızı görmek ister misiniz?",
+    "seeV1RumbleInvestments":"Rumble V1 yatırımlarınızı görmek ister misiniz?",
     "select":"Seçiniz",
     "selectToken":"Jeton araması",
     "sell":"Satmak",
@@ -412,7 +412,7 @@
     "swapFeeManager":"takas ücreti yöneticisi",
     "switchNetwork":"Ağ Değiştir",
     "symbol":"Sembol",
-    "tableShowsBalancerV2Pools":"Bu tablo yalnızca Dengeleyici V2 havuzlarını gösterir.",
+    "tableShowsRumbleV2Pools":"Bu tablo yalnızca Dengeleyici havuzlarını gösterir.",
     "theme":"Tema",
     "thirdPartyRewards":{
        "apr":{
@@ -433,7 +433,7 @@
        "hiddenTokens":"+{0} jeton"
     },
     "tokenSearch":"Jeton arama",
-    "tokenWarning":"Balancer Labs, bu havuza likidite eklemenin doğrudan veya dolaylı bir sonucu olarak maruz kalabileceğiniz kayıplardan sorumlu değildir. Deflasyon belirteçleri, transfer ücretli belirteçler veya ERC20 ile uyumlu olmayan diğer belirteçler eklemeyin. Lütfen devam etmeden önce onaylayın.",
+    "tokenWarning":"Rumble Labs, bu havuza likidite eklemenin doğrudan veya dolaylı bir sonucu olarak maruz kalabileceğiniz kayıplardan sorumlu değildir. Deflasyon belirteçleri, transfer ücretli belirteçler veya ERC20 ile uyumlu olmayan diğer belirteçler eklemeyin. Lütfen devam etmeden önce onaylayın.",
     "tokenWarningTitle":"Özel bir jeton eklediniz",
     "tokens":"Jetonlar",
     "tokensLowerCase":"jetonlar",
@@ -462,10 +462,10 @@
           "wrapUnwrap":"Wrap/Unwrap işlemleri her zaman bir gas işlemi gerektirdiğinden bu seçenek devre dışı bırakıldı."
        },
        "label":"Gazsız ticaret",
-       "tooltip":"Ücretsiz imza işlemleri, MEV koruması ve DeFi borsaları arasında akıllı ticaret yönlendirmesi ile en iyi fiyatlar için Balancer-Gnosis-Protocol (CowSwap) üzerinde 'gazsız işlem yapın'. Yalnızca gaz kullanan Balancer likidite havuzları aracılığıyla işlem yapmak için kapatın."
+       "tooltip":"Ücretsiz imza işlemleri, MEV koruması ve DeFi borsaları arasında akıllı ticaret yönlendirmesi ile en iyi fiyatlar için Rumble-Gnosis-Protocol (CowSwap) üzerinde 'gazsız işlem yapın'. Yalnızca gaz kullanan Rumble likidite havuzları aracılığıyla işlem yapmak için kapatın."
     },
     "tradeInterface":"Ticaret arayüzü",
-    "tradeInterfaceTooltip":"Balancer V1 ve V2 havuzlarında en iyi likidite için Balancer'ı seçin. MEV korumasının keyfini çıkarırken gazsız siparişler kullanarak jeton alıp satmak için Gnosis'i seçin.",
+    "tradeInterfaceTooltip":"Rumble V1 ve havuzlarında en iyi likidite için Rumble'ı seçin. MEV korumasının keyfini çıkarırken gazsız siparişler kullanarak jeton alıp satmak için Gnosis'i seçin.",
     "tradeLiquidity":"Ticaret likiditesi",
     "tradeSettled":"Ticaretiniz halloldu",
     "tradeSubmissionError":{
@@ -504,7 +504,7 @@
        },
        "gasCosts":"Gaz maliyetleri"
     },
-    "tradesThroughWeth":"ETH yolundan Balancer likidite havuzları aracılığıyla yapılan işlemler ve gas ücretlerine tabidir.",
+    "tradesThroughWeth":"ETH yolundan Rumble likidite havuzları aracılığıyla yapılan işlemler ve gas ücretlerine tabidir.",
     "transactionAction":{
        "trade":"Ticaret",
        "approve":"Onayla",

@@ -18,7 +18,7 @@ import {
   computeAPRsForPool
 } from '@/lib/utils/liquidityMining';
 
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 import { isStable, isStablePhantom, isWstETH } from '@/composables/usePool';
 import { oneSecondInMs, twentyFourHoursInSecs } from '@/composables/useTime';
 import { networkId } from '@/composables/useNetwork';

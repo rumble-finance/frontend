@@ -30,7 +30,7 @@ import {
   TransactionData,
   BalancerError,
   BalancerErrorCode
-} from '@balancer-labs/sdk';
+} from '@rumble-finance/sdk';
 import { SwapKind } from '@balancer-labs/balancer-js';
 import usePromiseSequence from '@/composables/usePromiseSequence';
 import { setError, WithdrawalError } from './useWithdrawalState';
@@ -593,7 +593,9 @@ export default function useWithdrawMath(
       );
 
       const batchRelayerAmountOut = bnum(
-        _batchRelayerSwap.outputs.amountsOut[0].toString()
+        _batchRelayerSwap.outputs?.amountsOut
+          ? _batchRelayerSwap.outputs?.amountsOut[0].toString()
+          : '0'
       ).abs();
       const amountOut = formatUnits(
         batchRelayerAmountOut.toString(),

@@ -1,6 +1,6 @@
 import { configService } from '@/services/config/config.service';
 import { setNetworkId } from '@/composables/useNetwork';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 
 describe('Config service', () => {
   describe('Get network config with key', () => {

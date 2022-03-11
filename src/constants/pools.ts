@@ -1,5 +1,5 @@
 import { isMainnet, networkId } from '@/composables/useNetwork';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 
 export const MIN_FIAT_VALUE_POOL_MIGRATION = isMainnet.value ? 100_000 : 1; // 100K USD or $1 for other networks
 
@@ -333,10 +333,7 @@ const POOLS_GENERIC: Pools = {
 };
 
 const POOLS_MAP = {
-  [Network.KOVAN]: POOLS_KOVAN,
-  [Network.MAINNET]: POOLS_MAINNET,
-  [Network.POLYGON]: POOLS_POLYGON,
-  [Network.ARBITRUM]: POOLS_ARBITRUM
+  [Network.AVALANCHE]: POOLS_MAINNET,
 };
 export const POOLS: Pools = POOLS_MAP[networkId.value]
   ? POOLS_MAP[networkId.value]

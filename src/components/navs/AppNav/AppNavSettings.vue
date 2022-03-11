@@ -146,7 +146,7 @@
     <div
       class="network p-4 mt-4 text-sm border-t dark:border-gray-900 rounded-b-xl"
     >
-      <div v-text="$t('network')" />
+      <div v-text="$t('referralLink')" />
       <div class="flex items-baseline">
         <div :class="['w-2 h-2 mr-1 rounded-full', networkColorClass]"></div>
         {{ isUnsupportedNetwork ? $t('unsupportedNetwork') : networkName }}
@@ -174,7 +174,7 @@ import {
 import { TradeInterface } from '@/store/modules/app';
 import useEthereumTxType from '@/composables/useEthereumTxType';
 import { ENABLE_LEGACY_TRADE_INTERFACE } from '@/composables/trade/constants';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 
 const locales = {
   'en-US': 'English',
@@ -226,21 +226,6 @@ export default defineComponent({
 
       if (isUnsupportedNetwork.value) {
         color = 'red';
-      } else {
-        switch (userNetworkConfig.value?.chainId) {
-          case Network.KOVAN:
-            color = 'purple';
-            break;
-          case Network.ROPSTEN:
-            color = 'pink';
-            break;
-          case Network.RINKEBY:
-            color = 'yellow';
-            break;
-          case Network.GÖRLI:
-            color = 'blue';
-            break;
-        }
       }
 
       return `bg-${color}-500 dark:bg-${color}-400`;

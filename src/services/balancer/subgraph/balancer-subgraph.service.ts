@@ -8,7 +8,7 @@ import PoolSnapshots from './entities/poolSnapshots';
 import TradePairSnapshots from './entities/tradePairs';
 
 import { networkId } from '@/composables/useNetwork';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 
 export default class BalancerSubgraphService {
   pools: Pools;
@@ -33,17 +33,10 @@ export default class BalancerSubgraphService {
 
   public get blockTime(): number {
     switch (networkId.value) {
-      case Network.MAINNET:
-        return 13;
-      case Network.POLYGON:
-        return 2;
-      case Network.ARBITRUM:
+      case Network.AVALANCHE:
         return 3;
-      case Network.KOVAN:
-        // Should be ~4s but this causes subgraph to return with unindexed block error.
-        return 1;
       default:
-        return 13;
+        return 4;
     }
   }
 }

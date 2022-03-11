@@ -9,7 +9,7 @@ import useSlippage from '@/composables/useSlippage';
 import { usePool } from '@/composables/usePool';
 import { BigNumber } from 'ethers';
 import { TokenInfo } from '@/types/TokenList';
-import { queryBatchSwapTokensIn, SOR } from '@balancer-labs/sdk';
+import { queryBatchSwapTokensIn, SOR } from '@rumble-finance/sdk';
 import { BatchSwap } from '@/types';
 import { balancerContractsService } from '@/services/balancer/contracts/balancer-contracts.service';
 import usePromiseSequence from '@/composables/usePromiseSequence';

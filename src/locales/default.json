@@ -1,5 +1,5 @@
 {
-    "aboutElementFinance": "Element is an open source protocol for fixed and variable yield markets. It is built on Balancer V2. View and manage your liquidity positions directly on Element.fi.",
+    "aboutElementFinance": "Element is an open source protocol for fixed and variable yield markets. It is built on Rumble V2. View and manage your liquidity positions directly on Element.fi.",
     "accept": "Accept",
     "account": "Account",
     "action": "Action",
@@ -13,7 +13,7 @@
         "pools-fetch-error": "Failed to fetch pools.",
         "price-fetch-error": "Our pricing provider, CoinGecko, is currently down.",
         "retry-label": "Refresh to try again",
-        "boostedPools": "Increased yields, greater capital efficiency, deeper liquidity. Try Balancer Boosted pools now →"
+        "boostedPools": "Increased yields, greater capital efficiency, deeper liquidity. Try Rumble Boosted pools now →"
     },
     "allow": "Allow",
     "allowing": "Allowing...",
@@ -35,7 +35,7 @@
         "InsufficientValidTo": "The order you are signing is already expired. This can happen if you set a short expiration in the settings and waited too long before signing the transaction. Please try again.",
         "InsufficientFunds": "The account doesn't have enough funds.",
         "UnsupportedToken": "One of the tokens you are trading is unsupported.",
-        "WrongOwner": "The signature is invalid.\n\nIt's likely that the signing method provided by your wallet doesn't comply with the standards required by Balancer.\n\nCheck whether your Wallet app supports off-chain signing (EIP-712 or ETHSIGN).",
+        "WrongOwner": "The signature is invalid.\n\nIt's likely that the signing method provided by your wallet doesn't comply with the standards required by Rumble.\n\nCheck whether your Wallet app supports off-chain signing (EIP-712 or ETHSIGN).",
         "NotFound": "Token pair selected has insufficient liquidity.",
         "OrderNotFound": "The order you are trying to cancel does not exist.",
         "AlreadyCancelled": "Order is already cancelled.",
@@ -75,7 +75,7 @@
     "available": "Available",
     "availableToClaim": "Available to claim:",
     "balance": "Balance",
-    "balancerGovernance": "Balancer governance",
+    "rumbleGovernance": "Rumble governance",
     "balances": "Balances",
     "basedOnLast24h": "based on the last 24h",
     "basedOnTokensInWallet": "Based on pool tokens in your wallet",
@@ -83,8 +83,8 @@
     "browseLists": "Browse lists",
     "browserWallet": "Browser Wallet",
     "buy": "Buy",
-    "boostedPool": "Balancer Boosted pool",
-    "byConnectingWallet": "By connecting a wallet, I agree to Balancer Labs’",
+    "boostedPool": "Rumble Boosted pool",
+    "byConnectingWallet": "By connecting a wallet, I agree to Rumble Labs’",
     "cancel": "Cancel",
     "cancelling": "Cancelling",
     "checkWallet": "Confirm in wallet",
@@ -113,7 +113,7 @@
     "copperLaunchPromo": {
         "buttonLabel": "View this auction on Copper",
         "description": "Copper is the platform for FLAs—a simple crowdfunding mechanism that enables projects and ideas from across the world to raise money from individuals without barriers to entry.",
-        "poweredByBalancer": "Copper is built on Balancer V2 and uses Liquidity Bootstrapping Pools to power its FLAs",
+        "poweredByRumble": "Copper is built on Rumble and uses Liquidity Bootstrapping Pools to power its FLAs",
         "title": "A Copper fair launch auction pool (FLA)"
     },
     "continueAnyway": "Continue anyway",
@@ -134,8 +134,8 @@
         "enterTokenPrice": "Enter the estimated current price of {0} in $USD",
         "existingPoolInfo": "There’s already another pool with exactly the same tokens and fee structure. It’s recommended to add your liquidity to the other pool or to go back and change your Pool Creation parameters in a material way to avoid fractured liquidity and lower profits for both pools.",
         "fixedFeeRadioLabel": "Permanently fix fees to the initial rate",
-        "governanceFees": "Allow Balancer governance to manage fees",
-        "governanceFeesTooltip": "Enable this to give Balancer governance the ability to dynamically manage the fees of this pool in order to maximize profits. But note, Balancer governance is under no obligation to actually manage the fees and will likely only do so if there is significant trading volume.",
+        "governanceFees": "Allow Rumble governance to manage fees",
+        "governanceFeesTooltip": "Enable this to give Rumble governance the ability to dynamically manage the fees of this pool in order to maximize profits. But note, Rumble governance is under no obligation to actually manage the fees and will likely only do so if there is significant trading volume.",
         "invalidInitialWeightsInfo": "One or more tokens has an initial weight less than 1% which may cause funding to fail. If the token has a missing price, enter in a price. Otherwise, adjust the initial balances in the previous step.",
         "invalidInitialWeightsTitle": "Invalid initial weight",
         "maxInitialLiquidity": "Max initial liquidity",
@@ -220,7 +220,7 @@
     "editoAbout": "Earn more on your Ethereum-based assets. Add tokens to pools and earn compounding fees when people trade on the exchange utilizing your liquidity.",
     "editoTitle": "Put your money to work",
     "effectivePrice": "Effective price:",
-    "emptyInvestmentPools": "You have not joined any Balancer investment pools.",
+    "emptyInvestmentPools": "You have not joined any Rumble investment pools.",
     "emptyInvestmentPoolsLink": "View investment pools ->",
     "enterAmount": "Enter amount",
     "enterAPrice": "Enter a price",
@@ -234,7 +234,7 @@
     "exceedsBalance": "Exceeds wallet balance",
     "exceedsPoolBalance": "Exceeds pool balance for this token",
     "explore": "Explore",
-    "exploreBalancerV1Pools": "Explore V1 pools ->",
+    "exploreRumbleV1Pools": "Explore V1 pools ->",
     "explorePools": "Explore pools",
     "featuredProtocol": "Featured ecosystem protocol",
     "fees": "fees",
@@ -273,12 +273,12 @@
             "header": "The fees on this transaction exceed 20% of the trade amount."
         }
     },
-    "goToBalancerV1Site": "Go to the Balancer V1 site ->",
+    "goToRumbleV1Site": "Go to the Rumble V1 site ->",
     "goToMigratedPool": "Go to migrated pool",
     "highGasFees": "High gas fees? Here's a helping hand",
     "highPriceImpact": "High price impact",
     "highPriceImpactDetailed": "This trade is significantly moving the market price.",
-    "highRiskPool": "This is a higher-risk pool that contains one or more unlisted tokens. A liquidity pool is only as good as its weakest token! If a token were blacklisted, infinitely minted, frozen, or exploited in any other way, the value of this pool could go to 0. Balancer Labs is never liable for losses incurred through using our UI or the Balancer protocol. Be careful, and do your own research!",
+    "highRiskPool": "This is a higher-risk pool that contains one or more unlisted tokens. A liquidity pool is only as good as its weakest token! If a token were blacklisted, infinitely minted, frozen, or exploited in any other way, the value of this pool could go to 0. Rumble Labs is never liable for losses incurred through using our UI or the Rumble protocol. Be careful, and do your own research!",
     "home": "Home",
     "hourAbbrev": "h",
     "initialBPT": "Initial BPT",
@@ -307,7 +307,7 @@
                 "default": "Investment preview"
             },
             "tooltips": {
-                "approval": "You must approve {0} to invest this token on Balancer. Approvals are required once per token, per wallet."
+                "approval": "You must approve {0} to invest this token on Rumble. Approvals are required once per token, per wallet."
             }
         },
         "warning": {
@@ -319,7 +319,7 @@
     },
     "investmentPool": "Investment pool",
     "investmentPools": "Investment pools",
-    "investmentPoolsAbout": "Stake your assets to get $BAL tokens for participating in Balancer V2 liquidity mining.",
+    "investmentPoolsAbout": "Stake your assets to get $BAL tokens for participating in Rumble liquidity mining.",
     "investmentPoolsAboutLink": "Learn more ->",
     "investmentSettled": "Your investment has settled",
     "investmentSuccess": "Your tokens have been added to this pool, and you have received a new LP token representing this investment.",
@@ -335,7 +335,7 @@
     "liquidityMining": "Liquidity mining",
     "liquidityMiningAPR": "Liquidity Mining APR",
     "liquidityMiningPopover": {
-        "airdropEligibility": "People who provide liquidity to eligible investment pools or trade on eligible token pairs receive weekly $BAL distributions as incentives. $BAL token holders own the Balancer Protocol and can help shape its future by voting on governance proposals.",
+        "airdropEligibility": "People who provide liquidity to eligible investment pools or trade on eligible token pairs receive weekly $BAL distributions as incentives. $BAL token holders own the Rumble Protocol and can help shape its future by voting on governance proposals.",
         "airdropExplainer": "Weekly distributions from liquidity mining on {0} are airdropped on Wednesdays, sent directly to your wallet using disperse.app",
         "claimFreezeWarning": {
             "description": "Since you have several weeks' worth of tokens unclaimed, your screen may appear to freeze after pressing the claim button while it is processed. Just leave your browser open and your wallet will eventually pop open for you to complete the claim.",
@@ -352,7 +352,7 @@
         },
         "title": "Token incentives"
     },
-    "liquidityProviderCopy": "People who provide liquidity to eligible investment pools or trade on eligible token pairs receive weekly $BAL distributions as incentives. $BAL token holders own the Balancer Protocol and can help shape its future by voting on governance proposals.",
+    "liquidityProviderCopy": "People who provide liquidity to eligible investment pools or trade on eligible token pairs receive weekly $BAL distributions as incentives. $BAL token holders own the Rumble Protocol and can help shape its future by voting on governance proposals.",
     "loading": "Loading...",
     "loadingBestPrice": "Looking for the best price...",
     "loadMore": "Load more",
@@ -382,16 +382,17 @@
     "mustBeValidNum": "must be a valid number",
     "mustBeValidAddress": "This is not a valid Ethereum address",
     "myBalance": "My balance",
-    "myInvestments": "My V2 Balancer investments",
+    "myInvestments": "My Rumble investments",
     "myPortfolio": "My portfolio",
     "myShare": "My share",
-    "myV2Investments": "My V2 investments",
+    "myV2Investments": "My investments",
     "myWallet": "My Ethereum wallet",
     "myWallet2": "My wallet",
     "name": "Name",
     "namePlaceholder": "Name, symbol or contract address",
     "nativeTokens": "Native tokens",
     "network": "Network",
+    "referralLink": "Referral link",
     "networkMismatch": "Please switch to {0}",
     "new": "New",
     "newInvestment": "New investment",
@@ -427,7 +428,7 @@
     "pages": {
         "claim": {
             "title": "Claim all of your liquidity incentives",
-            "description": "The Balancer protocol provides incentives to attract liquidity in eligible pools.",
+            "description": "The Rumble protocol provides incentives to attract liquidity in eligible pools.",
             "titles": {
                 "incentivesOnOtherNetworks": "Incentives on other networks"
             },
@@ -520,13 +521,13 @@
     "seeMore": "See more",
     "seeOnExplorer": "See on explorer",
     "seePools": "See pools",
-    "seeV1BalancerInvestments": "Want to see your Balancer V1 investments?",
+    "seeV1RumbleInvestments": "Want to see your Rumble V1 investments?",
     "select": "Select",
     "selectToken": "Select token",
     "sell": "Sell",
     "send": "Send",
     "settings": "Settings",
-    "setUpEthereumWallet": "Balancer is a DeFi app on Ethereum. Set up an Ethereum Wallet to Invest and Trade here.",
+    "setUpEthereumWallet": "Rumble is a DeFi app on Ethereum. Set up an Ethereum Wallet to Invest and Trade here.",
     "singleToken": "Single token",
     "singleTokenMax": "Single token max",
     "slippageTolerance": "Slippage tolerance",
@@ -541,7 +542,7 @@
     "swapFeeManager": "Swap fee manager",
     "switchNetwork": "Switch Network",
     "symbol": "Symbol",
-    "tableShowsBalancerV2Pools": "This table shows only Balancer V2 pools.",
+    "tableShowsRumbleV2Pools": "This table shows only Rumble pools.",
     
     "theme": "Theme",
     "thirdPartyRewards": {
@@ -569,7 +570,7 @@
     "tokensLowerCase": "tokens",
     "tokensParen": "Token(s)",
     "tokenPrices": "Token prices",
-    "tokenWarning": "Balancer Labs is not liable for any losses you might incur as a direct or indirect result of adding liquidity to this pool. Do not add deflationary tokens, tokens with transfer fees, or any other non-ERC20-conforming tokens. Please acknowlege before continuing.",
+    "tokenWarning": "Rumble Labs is not liable for any losses you might incur as a direct or indirect result of adding liquidity to this pool. Do not add deflationary tokens, tokens with transfer fees, or any other non-ERC20-conforming tokens. Please acknowlege before continuing.",
     "tokenWarningTitle": "You have added a custom token",
     "tooltips": {
         "invest": {
@@ -596,13 +597,13 @@
             "wrapUnwrap": "This option has been disabled because Wrap/Unwrap transactions always require a gas transaction."
         },
         "label": "Trade gasless",
-        "tooltip": "‘Trade gasless’ on the Balancer CoW Protocol for free signature trades, MEV protection, and the best prices with intelligent trade routing across DeFi exchanges. Turn it off to trade only through Balancer liquidity pools using gas."
+        "tooltip": "‘Trade gasless’ on the Rumble CoW Protocol for free signature trades, MEV protection, and the best prices with intelligent trade routing across DeFi exchanges. Turn it off to trade only through Rumble liquidity pools using gas."
     },
     "tradeInterface": "Trade interface",
-    "tradeInterfaceTooltip": "Choose Balancer for the best liquidity across Balancer V1 and V2 pools. Choose Gnosis to buy and sell tokens using gas-less orders while enjoying MEV protection.",
+    "tradeInterfaceTooltip": "Choose Rumble for the best liquidity across Rumble V1 and pools. Choose Gnosis to buy and sell tokens using gas-less orders while enjoying MEV protection.",
     "tradeLiquidity": "Trade liquidity",
     "tradeSettled": "Your trade has settled",
-    "tradesThroughWeth": "Trades from ETH route through Balancer liquidity pools and incur gas fees.",
+    "tradesThroughWeth": "Trades from ETH route through Rumble liquidity pools and incur gas fees.",
     "tradeSubmissionError": {
         "actionLabel": "Dismiss",
         "title": "An error has occurred"
@@ -634,11 +635,11 @@
                 "title": "Approve Lido relayer"
             },
             "tokenApproval": {
-                "content": "Your permission is required to trade this token on Balancer. Approvals are required once per token, per wallet.",
+                "content": "Your permission is required to trade this token on Rumble. Approvals are required once per token, per wallet.",
                 "title": "Approve {0}"
             },
             "sign": {
-                "content": "Upon your signature, the Balancer CoW Protocol will find an optimal route amongst other traders or DeFi exchanges, with MEV protection.",
+                "content": "Upon your signature, the Rumble CoW Protocol will find an optimal route amongst other traders or DeFi exchanges, with MEV protection.",
                 "title": "Sign a free message to trade"
             },
             "trade": {
@@ -715,8 +716,8 @@
     },
     "transactionType": "Transaction type",
     "unallocated": "Unallocated",
-    "unavailableOnNetwork": "Sorry! Balancer is not available on this network",
-    "unavailableOnNetworkWithName": "Sorry! Balancer is not available on {0}",
+    "unavailableOnNetwork": "Sorry! Rumble is not available on this network",
+    "unavailableOnNetworkWithName": "Sorry! Rumble is not available on {0}",
     "unsupportedNetwork": "Unsupported network",
     "unknown": "Unknown",
     "unknownPoolType": "Unknown pool type",

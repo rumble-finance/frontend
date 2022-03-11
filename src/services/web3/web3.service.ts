@@ -12,7 +12,7 @@ import { logFailedTx } from '@/lib/utils/logging';
 import { gasPriceService } from '@/services/gas-price/gas-price.service';
 import ConfigService, { configService } from '@/services/config/config.service';
 import { WalletError } from '@/types';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 
 interface Web3Profile {
   ens: string | null;
@@ -32,7 +32,7 @@ export default class Web3Service {
     private readonly config: ConfigService = configService
   ) {
     this.appProvider = this.rpcProviderService.jsonProvider;
-    this.ensProvider = this.rpcProviderService.getJsonProvider(Network.MAINNET);
+    this.ensProvider = this.rpcProviderService.getJsonProvider(Network.AVALANCHE);
   }
 
   public setUserProvider(provider: ComputedRef<Web3Provider>) {

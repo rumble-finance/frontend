@@ -30,7 +30,7 @@
         gradientUnits="userSpaceOnUse"
       >
         <stop stop-color="#FF00FF" />
-        <stop offset="1" stop-color="#0000FF" />
+        <stop offset="1" stop-color="#e74141" />
       </linearGradient>
       <linearGradient
         id="wallet_gradient"
@@ -41,7 +41,7 @@
         gradientUnits="userSpaceOnUse"
       >
         <stop stop-color="#FF00FF" />
-        <stop offset="1" stop-color="#0000FF" />
+        <stop offset="1" stop-color="#e74141" />
       </linearGradient>
     </defs>
   </svg>

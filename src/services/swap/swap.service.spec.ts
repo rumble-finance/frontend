@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber';
-import { SwapV2 } from '@balancer-labs/sdk';
+import { SwapV2 } from '@rumble-finance/sdk';
 import SwapService, { SwapTokenType, SwapToken } from './swap.service';
 import { configService } from '@/services/config/config.service';
 import {

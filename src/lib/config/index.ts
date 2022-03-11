@@ -1,15 +1,9 @@
-import homestead from './homestead.json';
-import kovan from './kovan.json';
-import rinkeby from './rinkeby.json';
-import polygon from './polygon.json';
-import arbitrum from './arbitrum.json';
-import docker from './docker.json';
-import test from './test.json';
-import { Network } from '@balancer-labs/sdk';
+import avalanche from './avalanche.json';
+import { Network } from '@rumble-finance/sdk';
 
 export interface Config {
   key: string;
-  chainId: Network | 12345 | 17;
+  chainId: Network;
   chainName: string;
   name: string;
   shortName: string;
@@ -66,14 +60,7 @@ export interface Config {
 }
 
 const config: Record<Config['chainId'], Config> = {
-  [Network.MAINNET]: homestead,
-  [Network.KOVAN]: kovan,
-  [Network.RINKEBY]: rinkeby,
-  [Network.POLYGON]: polygon,
-  [Network.ARBITRUM]: arbitrum,
-  12345: test,
-  // @ts-ignore
-  17: docker
+  [Network.AVALANCHE]: avalanche
 };
 
 export default config;

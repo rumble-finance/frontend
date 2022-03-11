@@ -5,7 +5,7 @@ import {
   SwapTypes,
   SwapOptions,
   PoolFilter
-} from '@balancer-labs/sdk';
+} from '@rumble-finance/sdk';
 import { BigNumber } from '@ethersproject/bignumber';
 import { Provider } from '@ethersproject/providers';
 import { AddressZero } from '@ethersproject/constants';

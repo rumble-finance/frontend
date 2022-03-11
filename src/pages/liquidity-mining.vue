@@ -22,20 +22,6 @@
         />
       </div>
       <div class="px-4">
-        <div class="flex flex-col">
-          <span class="font-medium mb-1 mt-8"
-            >Liquidity Mining is also on {{ otherNetwork }}</span
-          >
-
-          <BalLink external>
-            <a :href="otherNetworkLink">
-              <div class="flex items-center">
-                View {{ otherNetwork }} liquidity mining incentives
-                <BalIcon name="arrow-right" />
-              </div>
-            </a>
-          </BalLink>
-        </div>
         <div class="mt-12 max-w-6xl">
           <h4 class="font-bold">About liquidity mining</h4>
           <p class="mt-2">
@@ -80,7 +66,7 @@ import LMTable from '@/components/tables/LMTable/LMTable.vue';
 import LiquidityMiningDistributions from '@/lib/utils/liquidityMining/MultiTokenLiquidityMining.json';
 import usePoolsQuery from '@/composables/queries/usePoolsQuery';
 import { flatten, last, takeRight, uniq } from 'lodash';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 import useNumbers, { FNumFormats } from '@/composables/useNumbers';
 import useTokens from '@/composables/useTokens';
 import { getAddress } from '@ethersproject/address';
@@ -180,49 +166,17 @@ export default defineComponent({
     const pools = computed(() => poolsResponse.value?.pages);
 
     const shortNetworkName = computed(() => {
-      if (networkConfig.chainId === Network.MAINNET) {
-        return 'Ethereum';
-      }
-      if (networkConfig.chainId === Network.POLYGON) {
-        return 'Polygon';
-      }
-      if (networkConfig.chainId === Network.ARBITRUM) {
-        return 'Arbitrum';
+      if (networkConfig.chainId === Network.AVALANCHE) {
+        return 'Avalanche';
       }
       return 'Unknown Network';
     });
 
     const description = computed(() => {
-      if (networkConfig.chainId === Network.MAINNET) {
-        return `BAL distributions on Ethereum can be claimed weekly by tapping the
-        liquidity mining claim tool in the header.`;
-      }
-      if (networkConfig.chainId === Network.POLYGON) {
-        return `BAL distributions on Polygon can be claimed weekly by tapping the
-        liquidity mining claim tool in the header.`;
-      }
-      if (networkConfig.chainId === Network.ARBITRUM) {
-        return `BAL distributions on Arbitrum can be claimed weekly by tapping the
-        liquidity mining claim tool in the header.`;
-      }
       return '';
     });
 
     const currentWeek = computed(() => last(last(weeks)?.week.split('_')));
-    const otherNetwork = computed(() => {
-      if (networkConfig.chainId === Network.MAINNET) return 'Polygon';
-      if (networkConfig.chainId === Network.POLYGON) return 'Ethereum';
-      if (networkConfig.chainId === Network.ARBITRUM) return 'Ethereum';
-      return 'Ethereum';
-    });
-
-    const otherNetworkLink = computed(() => {
-      let networkDomain = 'app';
-      if (networkConfig.chainId === Network.MAINNET) {
-        networkDomain = 'polygon';
-      }
-      return `https://${networkDomain}.balancer.fi/#/liquidity-mining`;
-    });
 
     return {
       weeks,
@@ -235,9 +189,7 @@ export default defineComponent({
       currentWeek,
       currentWeekTotalFiat,
       fNum2,
-      FNumFormats,
-      otherNetwork,
-      otherNetworkLink
+      FNumFormats
     };
   }
 });

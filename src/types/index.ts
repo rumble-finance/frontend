@@ -1,7 +1,7 @@
 export type RuleFunction = (val: string | number) => string;
 export type Rules = Array<RuleFunction>;
-import { BatchSwapStep } from '@balancer-labs/sdk';
-import { SwapV2 } from '@balancer-labs/sdk';
+import { BatchSwapStep } from '@rumble-finance/sdk';
+import { SwapV2 } from '@rumble-finance/sdk';
 import { BigNumberish } from '@ethersproject/bignumber';
 
 export interface FormRef {

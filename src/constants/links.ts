@@ -1,8 +1,9 @@
 export const EXTERNAL_LINKS = {
   Balancer: {
-    Home: 'https://balancer.fi',
+    Home: 'https://rumble.finance',
+    Docs: 'https://docs.rumble.finance',
     BalForGas:
-      'https://docs.balancer.finance/core-concepts/bal-balancer-governance-token/bal-for-gas'
+      'https://docs.rumble.financenance/core-concepts/bal-balancer-governance-token/bal-for-gas'
   },
   Gauntlet: {
     Home: 'https://gauntlet.network'

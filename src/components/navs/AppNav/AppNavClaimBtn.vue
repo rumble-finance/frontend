@@ -60,10 +60,7 @@ const { fNum2 } = useNumbers();
 const {
   account,
   getProvider,
-  isArbitrum,
   isMainnet,
-  isKovan,
-  isPolygon,
   isMismatchedNetwork
 } = useWeb3();
 const { txListener } = useEthers();
@@ -90,20 +87,6 @@ const BALTokenPlaceholder = computed<ClaimableToken>(() => ({
 const isAirdrop = false;
 
 const legacyClaimUI = computed(() => {
-  if (isMainnet.value || isKovan.value) {
-    return [
-      { token: '$BAL', subdomain: 'claim' },
-      { token: '$VITA', subdomain: 'claim-vita' },
-      { token: '$LDO', subdomain: 'claim-lido' }
-    ];
-  } else if (isArbitrum.value) {
-    return [
-      { token: '$BAL', subdomain: 'claim-arbitrum' },
-      { token: '$MCDEX', subdomain: 'claim-mcdex' },
-      { token: '$PICKLE', subdomain: 'claim-pickle' }
-    ];
-  }
-
   return [];
 });
 
@@ -396,7 +379,7 @@ async function claimAvailableRewards() {
                   v-for="legacyClaim in legacyClaimUI"
                   :key="`token-${legacyClaim.token}`"
                   :href="
-                    `https://${legacyClaim.subdomain}.balancer.fi/#/${account}`
+                    `https://${legacyClaim.subdomain}.rumble.finance/#/${account}`
                   "
                   external
                   >{{ legacyClaim.token }}</BalLink
@@ -407,30 +390,12 @@ async function claimAvailableRewards() {
             </li>
             <li class="mt-2">
               Claim BAL on other networks
-              <template v-if="isArbitrum">
-                <BalLink href="https://app.balancer.fi" external>
-                  Ethereum
-                </BalLink>
-                and
-                <BalLink href="https://polygon.balancer.fi" external
-                  >Polygon</BalLink
-                >.
-              </template>
-              <template v-else-if="isPolygon">
-                <BalLink href="https://app.balancer.fi" external>
-                  Ethereum
-                </BalLink>
-                and
-                <BalLink href="https://arbitrum.balancer.fi" external
-                  >Arbitrum</BalLink
-                >.
-              </template>
-              <template v-else-if="isMainnet || isKovan">
-                <BalLink href="https://polygon.balancer.fi" external>
+              <template>
+                <BalLink href="https://polygon.rumble.finance" external>
                   Polygon
                 </BalLink>
                 and
-                <BalLink href="https://arbitrum.balancer.fi" external
+                <BalLink href="https://arbitrum.rumble.finance" external
                   >Arbitrum</BalLink
                 >.
               </template>

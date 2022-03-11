@@ -1,5 +1,5 @@
 {
-    "aboutElementFinance":"Element는 고정 및 변동 수익률 시장을 위한 오픈 소스 프로토콜입니다. 이것은 Balancer V2를 기반으로 합니다. Element.fi에서 유동성 포지션을 직접 확인하고 관리하세요.",
+    "aboutElementFinance":"Element는 고정 및 변동 수익률 시장을 위한 오픈 소스 프로토콜입니다. 이것은 Rumble V2를 기반으로 합니다. Element.fi에서 유동성 포지션을 직접 확인하고 관리하세요.",
     "accept":"동의하기",
     "account":"계정",
     "action":"동작",
@@ -71,7 +71,7 @@
     "available":"사용 가능",
     "availableToClaim":"청구 가능 :",
     "balance":"밸런스",
-    "balancerGovernance":"밸런서 거버넌스",
+    "rumbleGovernance":"밸런서 거버넌스",
     "balances":"균형",
     "basedOnLast24h":"지난 24시간 기준",
     "basedOnTokensInWallet":"지갑의 풀 토큰 기반",
@@ -109,7 +109,7 @@
     "copperLaunchPromo":{
        "title":"구리 공정 출시 경매 풀(FLA)",
        "description":"Copper는 전 세계의 프로젝트와 아이디어가 진입 장벽 없이 개인으로부터 자금을 조달할 수 있도록 하는 간단한 크라우드 펀딩 메커니즘인 FLA를 위한 플랫폼입니다.",
-       "poweredByBalancer":"Copper는 Balancer V2를 기반으로 하며 유동성 부트스태핑 풀을 사용하여 FLA에 전원을 공급합니다.",
+       "poweredByRumble":"Copper는 Rumble V2를 기반으로 하며 유동성 부트스태핑 풀을 사용하여 FLA에 전원을 공급합니다.",
        "buttonLabel":"Copper에서 이 경매 보기"
     },
     "copyAddress":"주소 복사",
@@ -118,7 +118,7 @@
        "title":"풀 생성",
        "governanceFees":"밸런서 거버넌스가 수수료를 관리하도록 허용",
        "swapFeeSuggestion":"토큰이 설정된 대부분의 가중치 풀에는 0.30%가 가장 좋습니다. 더 이국적인 쌍을 위해 더 높이 이동하십시오.",
-       "governanceFeesTooltip":"이 기능을 활성화하면 Balancer 거버넌스가 이 풀의 수수료를 동적으로 관리하여 이익을 극대화할 수 있습니다. 그러나 밸런서 거버넌스는 실제로 수수료를 관리할 의무가 없으며 상당한 거래량이 있는 경우에만 그렇게 할 것입니다.",
+       "governanceFeesTooltip":"이 기능을 활성화하면 Rumble 거버넌스가 이 풀의 수수료를 동적으로 관리하여 이익을 극대화할 수 있습니다. 그러나 밸런서 거버넌스는 실제로 수수료를 관리할 의무가 없으며 상당한 거래량이 있는 경우에만 그렇게 할 것입니다.",
        "fixedFeeRadioLabel":"수수료를 초기 요금으로 영구적으로 고정",
        "dynamicFeeRadioLabel":"내가 선택한 주소에서 동적 수수료 허용",
        "setAnAddress":"수수료 관리를 위한 주소 설정",
@@ -165,7 +165,7 @@
     "editoAbout":"이더 리움 기반 자산에서 더 많은 수익을 올리십시오. 사람들이 귀하의 유동성을 활용하여 거래소에서 거래 할 때 풀에 토큰을 추가하고 복리 수수료를 받으세요.",
     "editoTitle":"일에 돈을 투자하십시오",
     "effectivePrice":"유효 가격:",
-    "emptyInvestmentPools":"Balancer 투자 풀에 가입하지 않았습니다.",
+    "emptyInvestmentPools":"Rumble 투자 풀에 가입하지 않았습니다.",
     "emptyInvestmentPoolsLink":"투자 풀보기->",
     "enterAmount":"금액을 입력하세요",
     "errorCancellingOrder":"주문 취소 오류",
@@ -178,7 +178,7 @@
     "exceedsBalance":"잔액 초과",
     "exceedsPoolBalance":"이 토큰의 풀 잔액을 초과합니다.",
     "explore":"탐색",
-    "exploreBalancerV1Pools":"V1 풀 살펴보기->",
+    "exploreRumbleV1Pools":"V1 풀 살펴보기->",
     "explorePools":"풀 탐색",
     "featuredProtocol":"주요 생태계 프로토콜",
     "fees":"수수료",
@@ -210,11 +210,11 @@
           "body":"여전히 거래를 계속할 수 있지만 거래 수수료로 소비되는 비율이 높습니다."
        }
     },
-    "goToBalancerV1Site":"Balancer V1 사이트로 이동->",
+    "goToRumbleV1Site":"Rumble V1 사이트로 이동->",
     "highGasFees":"높은 가스비? 여기에 도움의 손길이 있습니다",
     "highPriceImpact":"높은 가격 영향",
     "highPriceImpactDetailed":"이 거래는 시장 가격을 크게 움직입니다.",
-    "highRiskPool":"이것은 하나 이상의 목록에 없는 토큰을 포함하는 고위험 풀입니다. 유동성 풀은 가장 약한 토큰만큼만 좋습니다! 토큰이 블랙리스트에 오르거나, 무한 발행되거나, 동결되거나, 다른 방식으로 악용되는 경우 이 풀의 가치는 0이 될 수 있습니다. Balancer Labs는 UI 또는 Balancer 프로토콜을 사용하여 발생한 손실에 대해 책임을 지지 않습니다. 조심하고 자신의 연구를 수행하십시오!",
+    "highRiskPool":"이것은 하나 이상의 목록에 없는 토큰을 포함하는 고위험 풀입니다. 유동성 풀은 가장 약한 토큰만큼만 좋습니다! 토큰이 블랙리스트에 오르거나, 무한 발행되거나, 동결되거나, 다른 방식으로 악용되는 경우 이 풀의 가치는 0이 될 수 있습니다. Rumble Labs는 UI 또는 Rumble 프로토콜을 사용하여 발생한 손실에 대해 책임을 지지 않습니다. 조심하고 자신의 연구를 수행하십시오!",
     "home":"집",
     "hourAbbrev":"h",
     "inYourWallet":"지갑에서 :",
@@ -233,7 +233,7 @@
     "investment":"투자",
     "investmentPool":"투자 풀",
     "investmentPools":"투자 풀",
-    "investmentPoolsAbout":"Balancer V2 유동성 채굴에 참여하여 $ BAL 토큰을 얻기 위해 자산을 스테이크하십시오.",
+    "investmentPoolsAbout":"Rumble 유동성 채굴에 참여하여 $ BAL 토큰을 얻기 위해 자산을 스테이크하십시오.",
     "investmentPoolsAboutLink":"자세히 알아보기->",
     "investmentSettled":"투자가 해결되었습니다",
     "investmentSuccess":"귀하의 토큰이이 풀에 추가되었으며<br> 이 투자를 대표하는 새 LP 토큰을 받았습니다.",
@@ -264,7 +264,7 @@
        },
        "title":"토큰 인센티브"
     },
-    "liquidityProviderCopy":"적격 투자 풀에 유동성을 제공하거나 적격 토큰 쌍으로 거래하는 사람들은 인센티브로 매주 $ BAL 분배를받습니다. $ BAL 토큰 보유자는 Balancer 프로토콜을 소유하고 있으며 거버넌스 제안에 투표하여 미래를 형성하는 데 도움을 줄 수 있습니다.",
+    "liquidityProviderCopy":"적격 투자 풀에 유동성을 제공하거나 적격 토큰 쌍으로 거래하는 사람들은 인센티브로 매주 $ BAL 분배를받습니다. $ BAL 토큰 보유자는 Rumble 프로토콜을 소유하고 있으며 거버넌스 제안에 투표하여 미래를 형성하는 데 도움을 줄 수 있습니다.",
     "loadMore":"더로드",
     "loading":"로드 중 ...",
     "loadingBestPrice":"최고의 가격을 추구합니다...",
@@ -295,7 +295,7 @@
     "myInvestments":"내 밸런서 투자",
     "myPortfolio":"내 포트폴리오",
     "myShare":"내 몫",
-    "myV2Investments":"내 V2 투자",
+    "myV2Investments":"내 투자",
     "myWallet":"내 이더 리움 지갑",
     "myWallet2":"내 지갑",
     "name":"이름",
@@ -393,7 +393,7 @@
     "seeMore":"더보기",
     "seeOnExplorer":"탐색기에서보기",
     "seePools":"풀보기",
-    "seeV1BalancerInvestments":"Balancer V1 투자를보고 싶으십니까?",
+    "seeV1RumbleInvestments":"Rumble V1 투자를보고 싶으십니까?",
     "select":"고르다",
     "selectToken":"토큰 검색",
     "sell":"팔다",
@@ -412,7 +412,7 @@
     "swapFeeManager":"스왑 수수료 관리자",
     "switchNetwork":"스위치 네트워크",
     "symbol":"상징",
-    "tableShowsBalancerV2Pools":"이 표에는 Balancer V2 풀만 표시됩니다.",
+    "tableShowsRumbleV2Pools":"이 표에는 Rumble 풀만 표시됩니다.",
     "theme":"테마",
     "thirdPartyRewards":{
        "apr":{
@@ -433,7 +433,7 @@
        "hiddenTokens":"+{0} 토큰"
     },
     "tokenSearch":"토큰 검색",
-    "tokenWarning":"Balancer Labs는 이 풀에 유동성을 추가함으로써 직간접적으로 발생할 수 있는 손실에 대해 책임을 지지 않습니다. 디플레이션 토큰, 송금 수수료가 있는 토큰 또는 기타 ERC20을 준수하지 않는 토큰을 추가하지 마십시오. 계속하기 전에 확인하십시오.",
+    "tokenWarning":"Rumble Labs는 이 풀에 유동성을 추가함으로써 직간접적으로 발생할 수 있는 손실에 대해 책임을 지지 않습니다. 디플레이션 토큰, 송금 수수료가 있는 토큰 또는 기타 ERC20을 준수하지 않는 토큰을 추가하지 마십시오. 계속하기 전에 확인하십시오.",
     "tokenWarningTitle":"사용자 정의 토큰을 추가했습니다.",
     "tokens":"토큰",
     "tokensLowerCase":"토큰",
@@ -462,10 +462,10 @@
           "wrapUnwrap":"Wrap/Unwrap 트랜잭션에는 항상 가스 트랜잭션이 필요하기 때문에 이 옵션이 비활성화되었습니다."
        },
        "label":"가스리스 거래",
-       "tooltip":"무료 서명 거래, MEV 보호 및 DeFi 교환 전반에 걸친 지능형 거래 라우팅을 통한 최적의 가격을 위해 Balancer-Gnosis-Protocol(CowSwap)에서 '가스리스 거래'. 가스를 사용하는 밸런서 유동성 풀을 통해서만 거래하려면 끄십시오."
+       "tooltip":"무료 서명 거래, MEV 보호 및 DeFi 교환 전반에 걸친 지능형 거래 라우팅을 통한 최적의 가격을 위해 Rumble-Gnosis-Protocol(CowSwap)에서 '가스리스 거래'. 가스를 사용하는 밸런서 유동성 풀을 통해서만 거래하려면 끄십시오."
     },
     "tradeInterface":"무역 인터페이스",
-    "tradeInterfaceTooltip":"Balancer V1 및 V2 풀에서 최고의 유동성을 위해 Balancer를 선택하십시오. MEV 보호를 즐기면서 가스 없는 주문을 사용하여 토큰을 사고 팔려면 Gnosis를 선택하십시오.",
+    "tradeInterfaceTooltip":"Rumble V1 및 풀에서 최고의 유동성을 위해 Rumble를 선택하십시오. MEV 보호를 즐기면서 가스 없는 주문을 사용하여 토큰을 사고 팔려면 Gnosis를 선택하십시오.",
     "tradeLiquidity":"무역 유동성",
     "tradeSettled":"거래가 해결되었습니다",
     "tradeSubmissionError":{
@@ -504,7 +504,7 @@
        },
        "gasCosts":"가스 비용"
     },
-    "tradesThroughWeth":"ETH 경로에서 Balancer 유동성 풀을 통해 거래하고 가스 요금이 발생합니다.",
+    "tradesThroughWeth":"ETH 경로에서 Rumble 유동성 풀을 통해 거래하고 가스 요금이 발생합니다.",
     "transactionAction":{
        "trade":"무역",
        "approve":"승인하다",

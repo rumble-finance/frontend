@@ -1,5 +1,5 @@
 {
-    "aboutElementFinance":"O Element é um protocolo de código aberto para mercados de rendimento fixo e variável. Ele é construído no Balancer V2. Visualize e gerencie suas posições de liquidez diretamente no Element.fi.",
+    "aboutElementFinance":"O Element é um protocolo de código aberto para mercados de rendimento fixo e variável. Ele é construído no Rumble V2. Visualize e gerencie suas posições de liquidez diretamente no Element.fi.",
     "accept":"Aceitar",
     "account":"Conta",
     "action":"Açao",
@@ -32,7 +32,7 @@
        "InsufficientValidTo":"O pedido que você está assinando já expirou. Isso pode acontecer se você definir uma expiração curta nas configurações e esperar muito tempo antes de assinar a transação. Por favor, tente novamente.",
        "InsufficientFunds":"A conta não tem fundos suficientes.",
        "UnsupportedToken":"Um dos tokens que você está negociando não é compatível.",
-       "WrongOwner":"A assinatura é inválida. É provável que o método de assinatura fornecido por sua carteira não esteja de acordo com os padrões exigidos pelo Balancer. Verifique se o seu aplicativo Wallet oferece suporte à assinatura off-chain (EIP-712 ou ETHSIGN).",
+       "WrongOwner":"A assinatura é inválida. É provável que o método de assinatura fornecido por sua carteira não esteja de acordo com os padrões exigidos pelo Rumble. Verifique se o seu aplicativo Wallet oferece suporte à assinatura off-chain (EIP-712 ou ETHSIGN).",
        "NotFound":"O par de tokens selecionado tem liquidez insuficiente.",
        "OrderNotFound":"O pedido que você está tentando cancelar não existe.",
        "AlreadyCancelled":"O pedido já foi cancelado.",
@@ -71,12 +71,12 @@
     "available":"Disponível",
     "availableToClaim":"Disponível para reclamar:",
     "balance":"Saldo",
-    "balancerGovernance":"Governança do balanceador",
+    "rumbleGovernance":"Governança do balanceador",
     "balances":"Saldos",
     "basedOnLast24h":"com base nas últimas 24h",
     "basedOnTokensInWallet":"Com base em tokens de pool em sua carteira",
     "best":"Melhor",
-    "boostedPool":"Balancer Boosted pool",
+    "boostedPool":"Rumble Boosted pool",
     "browseLists":"Navegar nas listas",
     "browserWallet":"Carteira do navegador",
     "buy":"Comprar",
@@ -109,7 +109,7 @@
     "copperLaunchPromo":{
        "title":"Um pool de leilão de lançamento justo de cobre (FLA)",
        "description":"O cobre é a plataforma para FLAs - um mecanismo simples de crowdfunding que permite que projetos e ideias de todo o mundo arrecadem dinheiro de indivíduos sem barreiras de entrada.",
-       "poweredByBalancer":"O cobre é construído no Balancer V2 e usa Pools de Bootstapping de Liquidez para alimentar seus FLAs",
+       "poweredByRumble":"O cobre é construído no Rumble e usa Pools de Bootstapping de Liquidez para alimentar seus FLAs",
        "buttonLabel":"Veja este leilão no cobre"
     },
     "copyAddress":"Copiar endereço",
@@ -118,7 +118,7 @@
        "title":"Crie um pool",
        "governanceFees":"Permitir que a governança do balanceador gerencie as taxas",
        "swapFeeSuggestion":"0,30% é melhor para a maioria dos pools ponderados com tokens estabelecidos. Vá mais alto para pares mais exóticos.",
-       "governanceFeesTooltip":"Habilite isso para dar à governança do Balancer a capacidade de gerenciar dinamicamente as taxas desse pool para maximizar os lucros. Mas observe que a governança do Balancer não tem obrigação de realmente gerenciar as taxas e provavelmente só o fará se houver um volume de negociação significativo.",
+       "governanceFeesTooltip":"Habilite isso para dar à governança do Rumble a capacidade de gerenciar dinamicamente as taxas desse pool para maximizar os lucros. Mas observe que a governança do Rumble não tem obrigação de realmente gerenciar as taxas e provavelmente só o fará se houver um volume de negociação significativo.",
        "fixedFeeRadioLabel":"Corrigir taxas permanentemente para a taxa inicial",
        "dynamicFeeRadioLabel":"Permitir taxas dinâmicas de um endereço que eu escolher",
        "setAnAddress":"Defina um endereço para controlar as taxas",
@@ -165,7 +165,7 @@
     "editoAbout":"Ganhe mais com seus ativos baseados em Ethereum. Adicione tokens aos pools e ganhe taxas de composição quando as pessoas negociarem na bolsa utilizando sua liquidez.",
     "editoTitle":"Coloque seu dinheiro para trabalhar",
     "effectivePrice":"Preço efetivo:",
-    "emptyInvestmentPools":"Você não ingressou em nenhum pool de investimentos do Balancer.",
+    "emptyInvestmentPools":"Você não ingressou em nenhum pool de investimentos do Rumble.",
     "emptyInvestmentPoolsLink":"Ver pools de investimento ->",
     "enterAmount":"Insira o valor",
     "errorCancellingOrder":"Erro ao cancelar pedido",
@@ -178,7 +178,7 @@
     "exceedsBalance":"Excede o equilíbrio",
     "exceedsPoolBalance":"Excede o saldo do pool para este token",
     "explore":"Explorar",
-    "exploreBalancerV1Pools":"Explore os pools V1 ->",
+    "exploreRumbleV1Pools":"Explore os pools V1 ->",
     "explorePools":"Explorar pools",
     "featuredProtocol":"Protocolo de ecossistema apresentado",
     "fees":"honorários",
@@ -210,11 +210,11 @@
           "body":"Você ainda pode prosseguir com a negociação, mas uma alta porcentagem dela será consumida por taxas de negociação."
        }
     },
-    "goToBalancerV1Site":"Acesse o site do Balancer V1 ->",
+    "goToRumbleV1Site":"Acesse o site do Rumble V1 ->",
     "highGasFees":"Altas taxas de gás? Aqui está uma mão amiga",
     "highPriceImpact":"Impacto de alto preço",
     "highPriceImpactDetailed":"Este comércio está movendo significativamente o preço de mercado.",
-    "highRiskPool":"Este é um pool de alto risco que contém um ou mais tokens não listados. Um pool de liquidez é tão bom quanto seu token mais fraco! Se um token for colocado na lista negra, cunhado infinitamente, congelado ou explorado de qualquer outra forma, o valor desse pool pode ir para 0. Balancer Labs nunca é responsável por perdas incorridas com o uso de nossa IU ou do protocolo do Balancer. Tenha cuidado e faça sua própria pesquisa!",
+    "highRiskPool":"Este é um pool de alto risco que contém um ou mais tokens não listados. Um pool de liquidez é tão bom quanto seu token mais fraco! Se um token for colocado na lista negra, cunhado infinitamente, congelado ou explorado de qualquer outra forma, o valor desse pool pode ir para 0. Rumble Labs nunca é responsável por perdas incorridas com o uso de nossa IU ou do protocolo do Rumble. Tenha cuidado e faça sua própria pesquisa!",
     "home":"Casa",
     "hourAbbrev":"h",
     "inYourWallet":"Em sua carteira:",
@@ -233,7 +233,7 @@
     "investment":"Investimento",
     "investmentPool":"Pool de investimento",
     "investmentPools":"Pools de investimento",
-    "investmentPoolsAbout":"Invista em seus ativos para obter tokens de $ BAL por participar da mineração de liquidez do Balancer V2.",
+    "investmentPoolsAbout":"Invista em seus ativos para obter tokens de $ BAL por participar da mineração de liquidez do Rumble V2.",
     "investmentPoolsAboutLink":"Saiba mais ->",
     "investmentSettled":"Seu investimento foi liquidado",
     "investmentSuccess":"Seus tokens foram adicionados a este pool, e você<br> recebeu um novo token LP representando este investimento.",
@@ -393,7 +393,7 @@
     "seeMore":"Ver mais",
     "seeOnExplorer":"Veja no explorer",
     "seePools":"Ver pools",
-    "seeV1BalancerInvestments":"Quer ver seus investimentos no Balancer V1?",
+    "seeV1RumbleInvestments":"Quer ver seus investimentos no Rumble V1?",
     "select":"Selecione",
     "selectToken":"Pesquisa de token",
     "sell":"Vender",
@@ -412,7 +412,7 @@
     "swapFeeManager":"Gerente de taxa de troca",
     "switchNetwork":"Mudar de rede",
     "symbol":"Símbolo",
-    "tableShowsBalancerV2Pools":"Esta tabela mostra apenas pools do Balancer V2.",
+    "tableShowsRumbleV2Pools":"Esta tabela mostra apenas pools do Rumble V2.",
     "theme":"Tema",
     "thirdPartyRewards":{
        "apr":{
@@ -433,7 +433,7 @@
        "hiddenTokens":"+ {0} tokens"
     },
     "tokenSearch":"Pesquisa de token",
-    "tokenWarning":"A Balancer Labs não é responsável por quaisquer perdas que você possa incorrer como resultado direto ou indireto do acréscimo de liquidez a este pool. Não adicione tokens deflacionários, tokens com taxas de transferência ou quaisquer outros tokens que não estejam em conformidade com ERC20. Por favor, reconheça antes de continuar.",
+    "tokenWarning":"A Rumble Labs não é responsável por quaisquer perdas que você possa incorrer como resultado direto ou indireto do acréscimo de liquidez a este pool. Não adicione tokens deflacionários, tokens com taxas de transferência ou quaisquer outros tokens que não estejam em conformidade com ERC20. Por favor, reconheça antes de continuar.",
     "tokenWarningTitle":"Você adicionou um token personalizado",
     "tokens":"Tokens",
     "tokensLowerCase":"tokens",
@@ -462,10 +462,10 @@
           "wrapUnwrap":"Esta opção foi desativada porque as transações de embrulhar / desembrulhar sempre exigem uma transação de gás."
        },
        "label":"Comércio sem gás",
-       "tooltip":"'Negocie sem gás' no Balancer-Gnosis-Protocol (CowSwap) para negociações de assinatura gratuitas, proteção MEV e os melhores preços com roteamento de comércio inteligente nas bolsas DeFi. Desligue-o para negociar apenas por meio de pools de liquidez do Balancer usando gás."
+       "tooltip":"'Negocie sem gás' no Rumble-Gnosis-Protocol (CowSwap) para negociações de assinatura gratuitas, proteção MEV e os melhores preços com roteamento de comércio inteligente nas bolsas DeFi. Desligue-o para negociar apenas por meio de pools de liquidez do Rumble usando gás."
     },
     "tradeInterface":"Interface comercial",
-    "tradeInterfaceTooltip":"Escolha o Balancer para obter a melhor liquidez nos pools do Balancer V1 e V2. Escolha Gnose para comprar e vender tokens usando ordens sem gás enquanto desfruta da proteção MEV.",
+    "tradeInterfaceTooltip":"Escolha o Rumble para obter a melhor liquidez nos pools do Rumble V1 e V2. Escolha Gnose para comprar e vender tokens usando ordens sem gás enquanto desfruta da proteção MEV.",
     "tradeLiquidity":"Liquidez comercial",
     "tradeSettled":"Seu comércio foi resolvido",
     "tradeSubmissionError":{
@@ -504,7 +504,7 @@
        },
        "gasCosts":"Custos de gás"
     },
-    "tradesThroughWeth":"As negociações da rota ETH por meio de pools de liquidez do Balancer e incorrem em taxas de gás.",
+    "tradesThroughWeth":"As negociações da rota ETH por meio de pools de liquidez do Rumble e incorrem em taxas de gás.",
     "transactionAction":{
        "trade":"Trocar",
        "approve":"Aprovar",
@@ -552,7 +552,7 @@
     "transactionType":"Tipo de transação",
     "trendingPairs":"Pares de tendências",
     "unallocated":"Não alocado",
-    "unavailableOnNetwork":"Desculpe! Balancer não está disponível nesta rede | Desculpe! O balanceador não está disponível em {n}",
+    "unavailableOnNetwork":"Desculpe! Rumble não está disponível nesta rede | Desculpe! O balanceador não está disponível em {n}",
     "unavailableOnNetworkWithName":"Desculpe! O balanceador não está disponível em {0}",
     "unknown":"Desconhecido",
     "unknownPoolType":"Tipo de pool desconhecido",

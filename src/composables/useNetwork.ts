@@ -1,5 +1,5 @@
 import { computed, ref } from 'vue';
-import { Network } from '@balancer-labs/sdk';
+import { Network } from '@rumble-finance/sdk';
 
 /**
  * STATE
@@ -7,13 +7,11 @@ import { Network } from '@balancer-labs/sdk';
 const DEFAULT_NETWORK_ID =
   process.env.VUE_APP_NETWORK != null
     ? (Number(process.env.VUE_APP_NETWORK) as Network)
-    : Network.MAINNET;
+    : Network.AVALANCHE;
 
 export const networkId = ref<Network>(DEFAULT_NETWORK_ID);
 
-export const isMainnet = computed(() => networkId.value === Network.MAINNET);
-export const isPolygon = computed(() => networkId.value === Network.POLYGON);
-export const isArbitrum = computed(() => networkId.value === Network.ARBITRUM);
+export const isMainnet = computed(() => networkId.value === Network.AVALANCHE);
 
 /**
  * METHODS

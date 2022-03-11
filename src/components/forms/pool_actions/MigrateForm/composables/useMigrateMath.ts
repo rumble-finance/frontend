@@ -13,7 +13,7 @@ import { bnSum, bnum } from '@/lib/utils';
 
 import { balancer } from '@/lib/balancer.sdk';
 
-import { queryBatchSwapTokensIn } from '@balancer-labs/sdk';
+import { queryBatchSwapTokensIn } from '@rumble-finance/sdk';
 
 import { balancerContractsService } from '@/services/balancer/contracts/balancer-contracts.service';
 

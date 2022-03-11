@@ -21,7 +21,6 @@ import useWeb3 from '@/services/web3/useWeb3';
 import { calculateValidTo, toErc20Address } from '@/services/gnosis/utils';
 import { gnosisProtocolService } from '@/services/gnosis/gnosisProtocol.service';
 import { match0xService } from '@/services/gnosis/match0x.service';
-import { paraSwapService } from '@/services/gnosis/paraswap.service';
 
 import useTransactions from '../useTransactions';
 
@@ -97,10 +96,6 @@ function getPriceQuotes(params: PriceQuoteParams) {
     ),
     tryPromiseWithTimeout(
       match0xService.getPriceQuote(params),
-      PRICE_QUOTE_TIMEOUT
-    ),
-    tryPromiseWithTimeout(
-      paraSwapService.getPriceQuote(params),
       PRICE_QUOTE_TIMEOUT
     )
   ]);

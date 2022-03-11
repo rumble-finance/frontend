@@ -2,7 +2,6 @@
   <div>
     <div v-if="account" class="flex items-center">
       <AppNavActivityBtn />
-      <AppNavClaimBtn v-if="liquidityMiningSupported" />
       <AppNavAccountBtn />
     </div>
     <BalBtn
@@ -28,7 +27,6 @@ import useBreakpoints from '@/composables/useBreakpoints';
 import useNumbers from '@/composables/useNumbers';
 
 import AppNavAccountBtn from './AppNavAccountBtn.vue';
-import AppNavClaimBtn from './AppNavClaimBtn.vue';
 import useWeb3 from '@/services/web3/useWeb3';
 import AppNavActivityBtn from './AppNavActivityBtn/AppNavActivityBtn.vue';
 
@@ -37,7 +35,6 @@ export default defineComponent({
 
   components: {
     AppNavAccountBtn,
-    AppNavClaimBtn,
     AppNavActivityBtn
   },
 
@@ -51,15 +48,11 @@ export default defineComponent({
       account,
       toggleWalletSelectModal,
       isMainnet,
-      isKovan,
-      isPolygon,
-      isArbitrum
     } = useWeb3();
 
     // COMPUTED
     const liquidityMiningSupported = computed(
-      () =>
-        isMainnet.value || isPolygon.value || isArbitrum.value || isKovan.value
+      () => false
     );
 
     // METHODS

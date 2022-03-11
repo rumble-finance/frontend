@@ -107,7 +107,7 @@ export class ClaimService {
       const response = await axios.get<
         MultiTokenCurrentRewardsEstimateResponse
       >(
-        `https://api.balancer.finance/liquidity-mining/v1/liquidity-provider-multitoken/${account}`
+        `https://api.rumble.finance/liquidity-mining/v1/liquidity-provider-multitoken/${account}`
       );
       if (response.data.success) {
         const multiTokenLiquidityProviders = response.data.result[

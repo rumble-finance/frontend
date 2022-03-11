@@ -23,7 +23,6 @@
     "@babel/plugin-proposal-numeric-separator": "^7.14.5",
     "@balancer-labs/assets": "github:balancer-labs/assets#master",
     "@balancer-labs/balancer-js": "^1.0.1",
-    "@balancer-labs/sdk": "^0.1.3",
     "@balancer-labs/sor": "^1.1.0",
     "@balancer-labs/typechain": "^1.0.0",
     "@ensdomains/content-hash": "^2.5.3",
@@ -42,6 +41,8 @@
     "@metamask/detect-provider": "^1.2.0",
     "@popperjs/core": "^2.9.2",
     "@portis/web3": "^3.0.10",
+    "@rumble-finance/sdk": "^1.0.0",
+    "@rumble-finance/sor": "^1.0.0",
     "@sentry/browser": "^6.3.2",
     "@sentry/tracing": "^6.3.2",
     "@sentry/webpack-plugin": "^1.15.1",
@@ -118,5 +119,8 @@
     "worker-loader": "^3.0.8"
   },
   "license": "MIT",
-  "repository": "balancer-labs/frontend-v2"
+  "repository": "balancer-labs/frontend-v2",
+  "dependencies": {
+    "@ethersproject/units": "^5.6.0"
+  }
 }

@@ -51,6 +51,11 @@ withDefaults(defineProps<Props>(), {
   @apply mt-px ml-1;
 }
 
+.pill-selected .pill-weight {
+  @apply font-medium text-gray-300 text-xs;
+  @apply mt-px ml-1;
+}
+
 .balance-indicator {
   @apply w-3 h-3;
   @apply rounded-full border-2 border-white dark:border-gray-850 group-hover:border-gray-50 dark:group-hover:border-gray-800;
