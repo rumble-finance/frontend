@@ -7,7 +7,7 @@ const lsDarkMode =
   lsGet(LS_KEYS.App.DarkMode, osDarkMode.toString()) === 'true';
 
 // STATE
-const darkMode = ref<boolean>(lsDarkMode);
+const darkMode = ref<boolean>(true);
 
 // MUTATIONS
 function setDarkMode(val: boolean): void {
